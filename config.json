@@ -1,0 +1,22 @@
+{
+    "options": {
+        "host": {
+            "host": "localhost",
+            "auth": "elastic:elastic",
+            "protocol": "http",
+            "port": 9200
+        },
+        "apiVersion": "6.2",
+        "log": [{
+                "type": "file",
+                "level": "trace",
+                "path": "./log/info.log"
+            },
+            {
+                "type": "file",
+                "level": "error",
+                "path": "./log/error.log"
+            }
+        ]
+    }
+}

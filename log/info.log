@@ -1,0 +1,1674 @@
+INFO: 2018-05-29T10:47:45Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-29T10:47:45Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-29T10:47:46Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-29T10:47:46Z
+  Request complete
+
+DEBUG: 2018-05-29T10:48:03Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T10:51:35Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T10:51:59Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T10:52:23Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+INFO: 2018-05-29T10:52:30Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-29T10:52:30Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-29T10:52:30Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-29T10:52:30Z
+  Request complete
+
+INFO: 2018-05-29T11:45:29Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-29T11:45:29Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-29T11:45:29Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-29T11:45:29Z
+  Request complete
+
+INFO: 2018-05-29T12:34:58Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-29T12:34:58Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T12:34:58Z
+  starting request {
+    "method": "HEAD",
+    "castExists": true,
+    "path": "/product",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-29T12:35:00Z
+  -> HEAD http://localhost:9200/product
+  
+  <- 404
+  
+
+DEBUG: 2018-05-29T12:35:00Z
+  Request complete
+
+TRACE: 2018-05-29T12:35:05Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-29T12:35:05Z
+  Request complete
+
+INFO: 2018-05-29T12:35:23Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-29T12:35:23Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T12:35:23Z
+  starting request {
+    "method": "HEAD",
+    "castExists": true,
+    "path": "/product",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T12:35:23Z
+  starting request {
+    "method": "PUT",
+    "path": "/product",
+    "body": {
+      "mappings": {
+        "_doc": {
+          "properties": {
+            "name": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword"
+                }
+              }
+            },
+            "price": {
+              "type": "scaled_float",
+              "scaling_factor": 100,
+              "doc_values": true
+            }
+          }
+        }
+      }
+    },
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-29T12:35:38Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-29T12:35:38Z
+  Request complete
+
+TRACE: 2018-05-29T12:35:38Z
+  -> HEAD http://localhost:9200/product
+  
+  <- 404
+  
+
+DEBUG: 2018-05-29T12:35:38Z
+  Request complete
+
+TRACE: 2018-05-29T12:35:41Z
+  -> PUT http://localhost:9200/product
+  {
+    "mappings": {
+      "_doc": {
+        "properties": {
+          "name": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword"
+              }
+            }
+          },
+          "price": {
+            "type": "scaled_float",
+            "scaling_factor": 100,
+            "doc_values": true
+          }
+        }
+      }
+    }
+  }
+  <- 200
+  {
+    "acknowledged": true,
+    "shards_acknowledged": true,
+    "index": "product"
+  }
+
+DEBUG: 2018-05-29T12:35:41Z
+  Request complete
+
+INFO: 2018-05-29T12:36:07Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-29T12:36:07Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T12:36:07Z
+  starting request {
+    "method": "HEAD",
+    "castExists": true,
+    "path": "/product",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-29T12:36:14Z
+  -> HEAD http://localhost:9200/product
+  
+  <- 200
+  
+
+DEBUG: 2018-05-29T12:36:14Z
+  Request complete
+
+TRACE: 2018-05-29T12:36:14Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-29T12:36:14Z
+  Request complete
+
+INFO: 2018-05-29T12:38:54Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-29T12:38:54Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T12:38:54Z
+  starting request {
+    "method": "HEAD",
+    "castExists": true,
+    "path": "/product",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T12:38:54Z
+  starting request {
+    "method": "DELETE",
+    "path": "/product",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-29T12:38:56Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-29T12:38:56Z
+  Request complete
+
+TRACE: 2018-05-29T12:38:56Z
+  -> HEAD http://localhost:9200/product
+  
+  <- 200
+  
+
+DEBUG: 2018-05-29T12:38:56Z
+  Request complete
+
+TRACE: 2018-05-29T12:38:56Z
+  -> DELETE http://localhost:9200/product
+  
+  <- 200
+  {
+    "acknowledged": true
+  }
+
+DEBUG: 2018-05-29T12:38:56Z
+  Request complete
+
+INFO: 2018-05-29T12:39:05Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-29T12:39:05Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T12:39:05Z
+  starting request {
+    "method": "HEAD",
+    "castExists": true,
+    "path": "/product",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T12:39:05Z
+  starting request {
+    "method": "DELETE",
+    "path": "/product",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-29T12:39:06Z
+  -> HEAD http://localhost:9200/product
+  
+  <- 404
+  
+
+DEBUG: 2018-05-29T12:39:06Z
+  Request complete
+
+TRACE: 2018-05-29T12:39:06Z
+  -> DELETE http://localhost:9200/product
+  
+  <- 404
+  {
+    "error": {
+      "root_cause": [
+        {
+          "type": "index_not_found_exception",
+          "reason": "no such index",
+          "resource.type": "index_or_alias",
+          "resource.id": "product",
+          "index_uuid": "_na_",
+          "index": "product"
+        }
+      ],
+      "type": "index_not_found_exception",
+      "reason": "no such index",
+      "resource.type": "index_or_alias",
+      "resource.id": "product",
+      "index_uuid": "_na_",
+      "index": "product"
+    },
+    "status": 404
+  }
+
+DEBUG: 2018-05-29T12:39:06Z
+  Request complete
+
+TRACE: 2018-05-29T12:39:10Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-29T12:39:10Z
+  Request complete
+
+INFO: 2018-05-29T12:46:27Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-29T12:46:27Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T12:46:27Z
+  starting request {
+    "method": "HEAD",
+    "castExists": true,
+    "path": "/product",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T12:46:27Z
+  starting request {
+    "method": "PUT",
+    "path": "/product",
+    "body": {
+      "mappings": {
+        "_doc": {
+          "properties": {
+            "name": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword"
+                }
+              }
+            },
+            "price": {
+              "type": "scaled_float",
+              "scaling_factor": 100,
+              "doc_values": true
+            }
+          }
+        }
+      }
+    },
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T12:46:27Z
+  starting request {
+    "method": "POST",
+    "bulkBody": true,
+    "path": "/product/_bulk",
+    "body": [
+      {
+        "index": {
+          "_id": "5b0d3ef48795613482446150"
+        }
+      },
+      {
+        "picture": "http://placehold.it/32x32",
+        "age": 27,
+        "name": "Randall Odonnell",
+        "gender": "male",
+        "company": "GOKO",
+        "email": "randallodonnell@goko.com",
+        "phone": "+1 (864) 567-2064",
+        "address": "632 Dahill Road, Accoville, Colorado, 3154",
+        "about": "Ad laborum ullamco deserunt est commodo commodo labore. Proident ut reprehenderit sit velit enim cupidatat. Occaecat adipisicing commodo consequat commodo qui incididunt aute occaecat tempor id nulla dolore in. Minim eiusmod consectetur nulla irure reprehenderit pariatur eu anim dolore. Pariatur nulla excepteur id tempor sint labore velit amet magna qui fugiat aliquip. Aliquip sint et duis sit deserunt nisi in dolore fugiat sunt dolor.\r\n"
+      },
+      {
+        "index": {
+          "_id": "5b0d3ef4168e3f8b3193d5ae"
+        }
+      },
+      {
+        "id": "5b0d3ef4168e3f8b3193d5ae",
+        "picture": "http://placehold.it/32x32",
+        "age": 23,
+        "name": "Delia Preston",
+        "gender": "female",
+        "company": "RODEOMAD",
+        "email": "deliapreston@rodeomad.com",
+        "phone": "+1 (827) 508-3723",
+        "address": "350 Coyle Street, Vandiver, Montana, 2330",
+        "about": "Tempor esse minim magna anim elit labore ad. Et nostrud eiusmod exercitation id ut et consequat fugiat culpa irure consequat. Ea exercitation adipisicing do reprehenderit officia.\r\n"
+      },
+      {
+        "index": {
+          "_id": "5b0d3ef485e788215b0e0f6d"
+        }
+      },
+      {
+        "id": "5b0d3ef485e788215b0e0f6d",
+        "picture": "http://placehold.it/32x32",
+        "age": 21,
+        "name": "Dunlap Bradshaw",
+        "gender": "male",
+        "company": "AVIT",
+        "email": "dunlapbradshaw@avit.com",
+        "phone": "+1 (955) 474-3082",
+        "address": "544 Moultrie Street, Delwood, Puerto Rico, 9835",
+        "about": "Minim ad amet anim reprehenderit ad nostrud nulla labore ea fugiat elit. Cupidatat ex aliquip occaecat irure exercitation incididunt aliquip et. Culpa esse quis deserunt proident et ut dolore ut aliqua commodo. Commodo cupidatat cillum nostrud officia duis ex esse fugiat nisi consectetur exercitation aute. Ullamco consequat proident nulla consequat incididunt et labore minim duis voluptate commodo.\r\n"
+      },
+      {
+        "index": {
+          "_id": "5b0d3ef47d3cc272ca049b98"
+        }
+      },
+      {
+        "id": "5b0d3ef47d3cc272ca049b98",
+        "picture": "http://placehold.it/32x32",
+        "age": 32,
+        "name": "Zimmerman Parrish",
+        "gender": "male",
+        "company": "DANJA",
+        "email": "zimmermanparrish@danja.com",
+        "phone": "+1 (939) 457-2114",
+        "address": "355 Buffalo Avenue, Grapeview, North Dakota, 3564",
+        "about": "Irure veniam nostrud sunt aliqua laboris eiusmod ullamco officia. Sunt cillum nostrud ullamco occaecat ea dolor ad minim sint minim nulla proident. Sunt aliquip labore culpa minim enim officia. Mollit esse nulla velit amet commodo aliquip sit reprehenderit ipsum fugiat. Sint elit sint ex culpa sint duis reprehenderit. Aute do velit labore irure adipisicing enim laborum sit pariatur non.\r\n"
+      },
+      {
+        "index": {
+          "_id": "5b0d3ef466f19383872fb034"
+        }
+      },
+      {
+        "id": "5b0d3ef466f19383872fb034",
+        "picture": "http://placehold.it/32x32",
+        "age": 29,
+        "name": "Edwards Mayer",
+        "gender": "male",
+        "company": "ACLIMA",
+        "email": "edwardsmayer@aclima.com",
+        "phone": "+1 (858) 576-2591",
+        "address": "230 Desmond Court, Conestoga, Oklahoma, 3082",
+        "about": "Pariatur amet ad aliquip eiusmod consectetur anim nisi anim elit. Consectetur consectetur esse id nulla consectetur consequat velit incididunt quis veniam deserunt. Pariatur tempor enim et in ea aliquip sit ex excepteur irure deserunt. Aute ea voluptate anim adipisicing non. Non aliqua elit tempor culpa dolore pariatur in dolor occaecat eu sit occaecat mollit.\r\n"
+      }
+    ],
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-29T12:46:28Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-29T12:46:28Z
+  Request complete
+
+TRACE: 2018-05-29T12:46:28Z
+  -> HEAD http://localhost:9200/product
+  
+  <- 404
+  
+
+DEBUG: 2018-05-29T12:46:28Z
+  Request complete
+
+INFO: 2018-05-29T12:47:17Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-29T12:47:17Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T12:47:17Z
+  starting request {
+    "method": "HEAD",
+    "castExists": true,
+    "path": "/product",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T12:47:17Z
+  starting request {
+    "method": "PUT",
+    "path": "/product",
+    "body": {
+      "mappings": {
+        "_doc": {
+          "properties": {
+            "name": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword"
+                }
+              }
+            },
+            "price": {
+              "type": "scaled_float",
+              "scaling_factor": 100,
+              "doc_values": true
+            }
+          }
+        }
+      }
+    },
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T12:47:17Z
+  starting request {
+    "method": "POST",
+    "bulkBody": true,
+    "path": "/product/_doc/_bulk",
+    "body": [
+      {
+        "index": {
+          "_id": "5b0d3ef48795613482446150"
+        }
+      },
+      {
+        "picture": "http://placehold.it/32x32",
+        "age": 27,
+        "name": "Randall Odonnell",
+        "gender": "male",
+        "company": "GOKO",
+        "email": "randallodonnell@goko.com",
+        "phone": "+1 (864) 567-2064",
+        "address": "632 Dahill Road, Accoville, Colorado, 3154",
+        "about": "Ad laborum ullamco deserunt est commodo commodo labore. Proident ut reprehenderit sit velit enim cupidatat. Occaecat adipisicing commodo consequat commodo qui incididunt aute occaecat tempor id nulla dolore in. Minim eiusmod consectetur nulla irure reprehenderit pariatur eu anim dolore. Pariatur nulla excepteur id tempor sint labore velit amet magna qui fugiat aliquip. Aliquip sint et duis sit deserunt nisi in dolore fugiat sunt dolor.\r\n"
+      },
+      {
+        "index": {
+          "_id": "5b0d3ef4168e3f8b3193d5ae"
+        }
+      },
+      {
+        "id": "5b0d3ef4168e3f8b3193d5ae",
+        "picture": "http://placehold.it/32x32",
+        "age": 23,
+        "name": "Delia Preston",
+        "gender": "female",
+        "company": "RODEOMAD",
+        "email": "deliapreston@rodeomad.com",
+        "phone": "+1 (827) 508-3723",
+        "address": "350 Coyle Street, Vandiver, Montana, 2330",
+        "about": "Tempor esse minim magna anim elit labore ad. Et nostrud eiusmod exercitation id ut et consequat fugiat culpa irure consequat. Ea exercitation adipisicing do reprehenderit officia.\r\n"
+      },
+      {
+        "index": {
+          "_id": "5b0d3ef485e788215b0e0f6d"
+        }
+      },
+      {
+        "id": "5b0d3ef485e788215b0e0f6d",
+        "picture": "http://placehold.it/32x32",
+        "age": 21,
+        "name": "Dunlap Bradshaw",
+        "gender": "male",
+        "company": "AVIT",
+        "email": "dunlapbradshaw@avit.com",
+        "phone": "+1 (955) 474-3082",
+        "address": "544 Moultrie Street, Delwood, Puerto Rico, 9835",
+        "about": "Minim ad amet anim reprehenderit ad nostrud nulla labore ea fugiat elit. Cupidatat ex aliquip occaecat irure exercitation incididunt aliquip et. Culpa esse quis deserunt proident et ut dolore ut aliqua commodo. Commodo cupidatat cillum nostrud officia duis ex esse fugiat nisi consectetur exercitation aute. Ullamco consequat proident nulla consequat incididunt et labore minim duis voluptate commodo.\r\n"
+      },
+      {
+        "index": {
+          "_id": "5b0d3ef47d3cc272ca049b98"
+        }
+      },
+      {
+        "id": "5b0d3ef47d3cc272ca049b98",
+        "picture": "http://placehold.it/32x32",
+        "age": 32,
+        "name": "Zimmerman Parrish",
+        "gender": "male",
+        "company": "DANJA",
+        "email": "zimmermanparrish@danja.com",
+        "phone": "+1 (939) 457-2114",
+        "address": "355 Buffalo Avenue, Grapeview, North Dakota, 3564",
+        "about": "Irure veniam nostrud sunt aliqua laboris eiusmod ullamco officia. Sunt cillum nostrud ullamco occaecat ea dolor ad minim sint minim nulla proident. Sunt aliquip labore culpa minim enim officia. Mollit esse nulla velit amet commodo aliquip sit reprehenderit ipsum fugiat. Sint elit sint ex culpa sint duis reprehenderit. Aute do velit labore irure adipisicing enim laborum sit pariatur non.\r\n"
+      },
+      {
+        "index": {
+          "_id": "5b0d3ef466f19383872fb034"
+        }
+      },
+      {
+        "id": "5b0d3ef466f19383872fb034",
+        "picture": "http://placehold.it/32x32",
+        "age": 29,
+        "name": "Edwards Mayer",
+        "gender": "male",
+        "company": "ACLIMA",
+        "email": "edwardsmayer@aclima.com",
+        "phone": "+1 (858) 576-2591",
+        "address": "230 Desmond Court, Conestoga, Oklahoma, 3082",
+        "about": "Pariatur amet ad aliquip eiusmod consectetur anim nisi anim elit. Consectetur consectetur esse id nulla consectetur consequat velit incididunt quis veniam deserunt. Pariatur tempor enim et in ea aliquip sit ex excepteur irure deserunt. Aute ea voluptate anim adipisicing non. Non aliqua elit tempor culpa dolore pariatur in dolor occaecat eu sit occaecat mollit.\r\n"
+      }
+    ],
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-29T12:47:17Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-29T12:47:17Z
+  Request complete
+
+TRACE: 2018-05-29T12:47:17Z
+  -> HEAD http://localhost:9200/product
+  
+  <- 200
+  
+
+DEBUG: 2018-05-29T12:47:17Z
+  Request complete
+
+TRACE: 2018-05-29T12:47:17Z
+  -> PUT http://localhost:9200/product
+  {
+    "mappings": {
+      "_doc": {
+        "properties": {
+          "name": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword"
+              }
+            }
+          },
+          "price": {
+            "type": "scaled_float",
+            "scaling_factor": 100,
+            "doc_values": true
+          }
+        }
+      }
+    }
+  }
+  <- 400
+  {
+    "error": {
+      "root_cause": [
+        {
+          "type": "resource_already_exists_exception",
+          "reason": "index [product/aUAD-U0mTFW7ojifgcpVZg] already exists",
+          "index_uuid": "aUAD-U0mTFW7ojifgcpVZg",
+          "index": "product"
+        }
+      ],
+      "type": "resource_already_exists_exception",
+      "reason": "index [product/aUAD-U0mTFW7ojifgcpVZg] already exists",
+      "index_uuid": "aUAD-U0mTFW7ojifgcpVZg",
+      "index": "product"
+    },
+    "status": 400
+  }
+
+DEBUG: 2018-05-29T12:47:17Z
+  Request complete
+
+TRACE: 2018-05-29T12:47:17Z
+  -> POST http://localhost:9200/product/_doc/_bulk
+  {"index":{"_id":"5b0d3ef48795613482446150"}}
+  {"picture":"http://placehold.it/32x32","age":27,"name":"Randall Odonnell","gender":"male","company":"GOKO","email":"randallodonnell@goko.com","phone":"+1 (864) 567-2064","address":"632 Dahill Road, Accoville, Colorado, 3154","about":"Ad laborum ullamco deserunt est commodo commodo labore. Proident ut reprehenderit sit velit enim cupidatat. Occaecat adipisicing commodo consequat commodo qui incididunt aute occaecat tempor id nulla dolore in. Minim eiusmod consectetur nulla irure reprehenderit pariatur eu anim dolore. Pariatur nulla excepteur id tempor sint labore velit amet magna qui fugiat aliquip. Aliquip sint et duis sit deserunt nisi in dolore fugiat sunt dolor.\r\n"}
+  {"index":{"_id":"5b0d3ef4168e3f8b3193d5ae"}}
+  {"id":"5b0d3ef4168e3f8b3193d5ae","picture":"http://placehold.it/32x32","age":23,"name":"Delia Preston","gender":"female","company":"RODEOMAD","email":"deliapreston@rodeomad.com","phone":"+1 (827) 508-3723","address":"350 Coyle Street, Vandiver, Montana, 2330","about":"Tempor esse minim magna anim elit labore ad. Et nostrud eiusmod exercitation id ut et consequat fugiat culpa irure consequat. Ea exercitation adipisicing do reprehenderit officia.\r\n"}
+  {"index":{"_id":"5b0d3ef485e788215b0e0f6d"}}
+  {"id":"5b0d3ef485e788215b0e0f6d","picture":"http://placehold.it/32x32","age":21,"name":"Dunlap Bradshaw","gender":"male","company":"AVIT","email":"dunlapbradshaw@avit.com","phone":"+1 (955) 474-3082","address":"544 Moultrie Street, Delwood, Puerto Rico, 9835","about":"Minim ad amet anim reprehenderit ad nostrud nulla labore ea fugiat elit. Cupidatat ex aliquip occaecat irure exercitation incididunt aliquip et. Culpa esse quis deserunt proident et ut dolore ut aliqua commodo. Commodo cupidatat cillum nostrud officia duis ex esse fugiat nisi consectetur exercitation aute. Ullamco consequat proident nulla consequat incididunt et labore minim duis voluptate commodo.\r\n"}
+  {"index":{"_id":"5b0d3ef47d3cc272ca049b98"}}
+  {"id":"5b0d3ef47d3cc272ca049b98","picture":"http://placehold.it/32x32","age":32,"name":"Zimmerman Parrish","gender":"male","company":"DANJA","email":"zimmermanparrish@danja.com","phone":"+1 (939) 457-2114","address":"355 Buffalo Avenue, Grapeview, North Dakota, 3564","about":"Irure veniam nostrud sunt aliqua laboris eiusmod ullamco officia. Sunt cillum nostrud ullamco occaecat ea dolor ad minim sint minim nulla proident. Sunt aliquip labore culpa minim enim officia. Mollit esse nulla velit amet commodo aliquip sit reprehenderit ipsum fugiat. Sint elit sint ex culpa sint duis reprehenderit. Aute do velit labore irure adipisicing enim laborum sit pariatur non.\r\n"}
+  {"index":{"_id":"5b0d3ef466f19383872fb034"}}
+  {"id":"5b0d3ef466f19383872fb034","picture":"http://placehold.it/32x32","age":29,"name":"Edwards Mayer","gender":"male","company":"ACLIMA","email":"edwardsmayer@aclima.com","phone":"+1 (858) 576-2591","address":"230 Desmond Court, Conestoga, Oklahoma, 3082","about":"Pariatur amet ad aliquip eiusmod consectetur anim nisi anim elit. Consectetur consectetur esse id nulla consectetur consequat velit incididunt quis veniam deserunt. Pariatur tempor enim et in ea aliquip sit ex excepteur irure deserunt. Aute ea voluptate anim adipisicing non. Non aliqua elit tempor culpa dolore pariatur in dolor occaecat eu sit occaecat mollit.\r\n"}
+  
+  <- 200
+  {
+    "took": 345,
+    "errors": false,
+    "items": [
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d3ef48795613482446150",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d3ef4168e3f8b3193d5ae",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d3ef485e788215b0e0f6d",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 1,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d3ef47d3cc272ca049b98",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d3ef466f19383872fb034",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      }
+    ]
+  }
+
+DEBUG: 2018-05-29T12:47:17Z
+  Request complete
+
+INFO: 2018-05-29T13:04:49Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-29T13:04:49Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T13:04:49Z
+  starting request {
+    "method": "HEAD",
+    "castExists": true,
+    "path": "/product",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T13:04:49Z
+  starting request {
+    "method": "DELETE",
+    "path": "/product",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T13:04:49Z
+  starting request {
+    "method": "PUT",
+    "path": "/product",
+    "body": {
+      "mappings": {
+        "_doc": {
+          "properties": {
+            "name": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword"
+                }
+              }
+            },
+            "price": {
+              "type": "scaled_float",
+              "scaling_factor": 100,
+              "doc_values": true
+            }
+          }
+        }
+      }
+    },
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T13:04:49Z
+  starting request {
+    "method": "POST",
+    "bulkBody": true,
+    "path": "/product/_doc/_bulk",
+    "body": [
+      {
+        "index": {
+          "_id": "5b0d4f37793be2f152da625e"
+        }
+      },
+      {
+        "price": 98.94,
+        "name": "Camille Obrien"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f3784383b8ebd7e4b92"
+        }
+      },
+      {
+        "price": 432.68,
+        "name": "Henson Mitchell"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37a13c9981d92cb381"
+        }
+      },
+      {
+        "price": 667.9,
+        "name": "Waller Peterson"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37baffc30ee690af99"
+        }
+      },
+      {
+        "price": 576.58,
+        "name": "Blanca Cohen"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f372b16ffd48a53e50b"
+        }
+      },
+      {
+        "price": 875.79,
+        "name": "Brandy Bradshaw"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37265c822e73a42db3"
+        }
+      },
+      {
+        "id": "5b0d4f37265c822e73a42db3",
+        "price": 954.19,
+        "name": "Mcgowan Lindsey"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37b218f7a9d283c38d"
+        }
+      },
+      {
+        "price": 554.05,
+        "name": "Bender Chapman"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37f6fda33f2efa6e53"
+        }
+      },
+      {
+        "price": 92.85,
+        "name": "Acosta Higgins"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f370499713c9cd007c0"
+        }
+      },
+      {
+        "price": 15.79,
+        "name": "Sherman Meyer"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f3703437c01dc3b442f"
+        }
+      },
+      {
+        "price": 403.79,
+        "name": "Alisha Hicks"
+      }
+    ],
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-29T13:04:49Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-29T13:04:49Z
+  Request complete
+
+TRACE: 2018-05-29T13:04:49Z
+  -> HEAD http://localhost:9200/product
+  
+  <- 200
+  
+
+DEBUG: 2018-05-29T13:04:49Z
+  Request complete
+
+TRACE: 2018-05-29T13:04:49Z
+  -> PUT http://localhost:9200/product
+  {
+    "mappings": {
+      "_doc": {
+        "properties": {
+          "name": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword"
+              }
+            }
+          },
+          "price": {
+            "type": "scaled_float",
+            "scaling_factor": 100,
+            "doc_values": true
+          }
+        }
+      }
+    }
+  }
+  <- 400
+  {
+    "error": {
+      "root_cause": [
+        {
+          "type": "resource_already_exists_exception",
+          "reason": "index [product/aUAD-U0mTFW7ojifgcpVZg] already exists",
+          "index_uuid": "aUAD-U0mTFW7ojifgcpVZg",
+          "index": "product"
+        }
+      ],
+      "type": "resource_already_exists_exception",
+      "reason": "index [product/aUAD-U0mTFW7ojifgcpVZg] already exists",
+      "index_uuid": "aUAD-U0mTFW7ojifgcpVZg",
+      "index": "product"
+    },
+    "status": 400
+  }
+
+DEBUG: 2018-05-29T13:04:49Z
+  Request complete
+
+TRACE: 2018-05-29T13:04:50Z
+  -> DELETE http://localhost:9200/product
+  
+  <- 200
+  {
+    "acknowledged": true
+  }
+
+DEBUG: 2018-05-29T13:04:50Z
+  Request complete
+
+TRACE: 2018-05-29T13:05:22Z
+  -> POST http://localhost:9200/product/_doc/_bulk
+  {"index":{"_id":"5b0d4f37793be2f152da625e"}}
+  {"price":98.94,"name":"Camille Obrien"}
+  {"index":{"_id":"5b0d4f3784383b8ebd7e4b92"}}
+  {"price":432.68,"name":"Henson Mitchell"}
+  {"index":{"_id":"5b0d4f37a13c9981d92cb381"}}
+  {"price":667.9,"name":"Waller Peterson"}
+  {"index":{"_id":"5b0d4f37baffc30ee690af99"}}
+  {"price":576.58,"name":"Blanca Cohen"}
+  {"index":{"_id":"5b0d4f372b16ffd48a53e50b"}}
+  {"price":875.79,"name":"Brandy Bradshaw"}
+  {"index":{"_id":"5b0d4f37265c822e73a42db3"}}
+  {"id":"5b0d4f37265c822e73a42db3","price":954.19,"name":"Mcgowan Lindsey"}
+  {"index":{"_id":"5b0d4f37b218f7a9d283c38d"}}
+  {"price":554.05,"name":"Bender Chapman"}
+  {"index":{"_id":"5b0d4f37f6fda33f2efa6e53"}}
+  {"price":92.85,"name":"Acosta Higgins"}
+  {"index":{"_id":"5b0d4f370499713c9cd007c0"}}
+  {"price":15.79,"name":"Sherman Meyer"}
+  {"index":{"_id":"5b0d4f3703437c01dc3b442f"}}
+  {"price":403.79,"name":"Alisha Hicks"}
+  
+  <- 0
+  
+
+INFO: 2018-05-29T13:05:59Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-29T13:05:59Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T13:05:59Z
+  starting request {
+    "method": "HEAD",
+    "castExists": true,
+    "path": "/product",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T13:05:59Z
+  starting request {
+    "method": "DELETE",
+    "path": "/product",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-29T13:06:01Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-29T13:06:01Z
+  Request complete
+
+TRACE: 2018-05-29T13:06:01Z
+  -> HEAD http://localhost:9200/product
+  
+  <- 404
+  
+
+DEBUG: 2018-05-29T13:06:01Z
+  Request complete
+
+TRACE: 2018-05-29T13:06:01Z
+  -> DELETE http://localhost:9200/product
+  
+  <- 404
+  {
+    "error": {
+      "root_cause": [
+        {
+          "type": "index_not_found_exception",
+          "reason": "no such index",
+          "resource.type": "index_or_alias",
+          "resource.id": "product",
+          "index_uuid": "_na_",
+          "index": "product"
+        }
+      ],
+      "type": "index_not_found_exception",
+      "reason": "no such index",
+      "resource.type": "index_or_alias",
+      "resource.id": "product",
+      "index_uuid": "_na_",
+      "index": "product"
+    },
+    "status": 404
+  }
+
+DEBUG: 2018-05-29T13:06:01Z
+  Request complete
+
+INFO: 2018-05-29T13:06:36Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-29T13:06:36Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T13:06:36Z
+  starting request {
+    "method": "HEAD",
+    "castExists": true,
+    "path": "/product",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T13:06:36Z
+  starting request {
+    "method": "PUT",
+    "path": "/product",
+    "body": {
+      "mappings": {
+        "_doc": {
+          "properties": {
+            "name": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword"
+                }
+              }
+            },
+            "price": {
+              "type": "scaled_float",
+              "scaling_factor": 100,
+              "doc_values": true
+            }
+          }
+        }
+      }
+    },
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-29T13:06:38Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-29T13:06:38Z
+  Request complete
+
+TRACE: 2018-05-29T13:06:38Z
+  -> HEAD http://localhost:9200/product
+  
+  <- 404
+  
+
+DEBUG: 2018-05-29T13:06:38Z
+  Request complete
+
+TRACE: 2018-05-29T13:06:39Z
+  -> PUT http://localhost:9200/product
+  {
+    "mappings": {
+      "_doc": {
+        "properties": {
+          "name": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword"
+              }
+            }
+          },
+          "price": {
+            "type": "scaled_float",
+            "scaling_factor": 100,
+            "doc_values": true
+          }
+        }
+      }
+    }
+  }
+  <- 200
+  {
+    "acknowledged": true,
+    "shards_acknowledged": true,
+    "index": "product"
+  }
+
+DEBUG: 2018-05-29T13:06:39Z
+  Request complete
+
+INFO: 2018-05-29T13:07:03Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-29T13:07:03Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-29T13:07:03Z
+  starting request {
+    "method": "POST",
+    "bulkBody": true,
+    "path": "/product/_doc/_bulk",
+    "body": [
+      {
+        "index": {
+          "_id": "5b0d4f37793be2f152da625e"
+        }
+      },
+      {
+        "price": 98.94,
+        "name": "Camille Obrien"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f3784383b8ebd7e4b92"
+        }
+      },
+      {
+        "price": 432.68,
+        "name": "Henson Mitchell"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37a13c9981d92cb381"
+        }
+      },
+      {
+        "price": 667.9,
+        "name": "Waller Peterson"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37baffc30ee690af99"
+        }
+      },
+      {
+        "price": 576.58,
+        "name": "Blanca Cohen"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f372b16ffd48a53e50b"
+        }
+      },
+      {
+        "price": 875.79,
+        "name": "Brandy Bradshaw"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37265c822e73a42db3"
+        }
+      },
+      {
+        "id": "5b0d4f37265c822e73a42db3",
+        "price": 954.19,
+        "name": "Mcgowan Lindsey"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37b218f7a9d283c38d"
+        }
+      },
+      {
+        "price": 554.05,
+        "name": "Bender Chapman"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37f6fda33f2efa6e53"
+        }
+      },
+      {
+        "price": 92.85,
+        "name": "Acosta Higgins"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f370499713c9cd007c0"
+        }
+      },
+      {
+        "price": 15.79,
+        "name": "Sherman Meyer"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f3703437c01dc3b442f"
+        }
+      },
+      {
+        "price": 403.79,
+        "name": "Alisha Hicks"
+      }
+    ],
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-29T13:07:05Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-29T13:07:05Z
+  Request complete
+
+TRACE: 2018-05-29T13:07:06Z
+  -> POST http://localhost:9200/product/_doc/_bulk
+  {"index":{"_id":"5b0d4f37793be2f152da625e"}}
+  {"price":98.94,"name":"Camille Obrien"}
+  {"index":{"_id":"5b0d4f3784383b8ebd7e4b92"}}
+  {"price":432.68,"name":"Henson Mitchell"}
+  {"index":{"_id":"5b0d4f37a13c9981d92cb381"}}
+  {"price":667.9,"name":"Waller Peterson"}
+  {"index":{"_id":"5b0d4f37baffc30ee690af99"}}
+  {"price":576.58,"name":"Blanca Cohen"}
+  {"index":{"_id":"5b0d4f372b16ffd48a53e50b"}}
+  {"price":875.79,"name":"Brandy Bradshaw"}
+  {"index":{"_id":"5b0d4f37265c822e73a42db3"}}
+  {"id":"5b0d4f37265c822e73a42db3","price":954.19,"name":"Mcgowan Lindsey"}
+  {"index":{"_id":"5b0d4f37b218f7a9d283c38d"}}
+  {"price":554.05,"name":"Bender Chapman"}
+  {"index":{"_id":"5b0d4f37f6fda33f2efa6e53"}}
+  {"price":92.85,"name":"Acosta Higgins"}
+  {"index":{"_id":"5b0d4f370499713c9cd007c0"}}
+  {"price":15.79,"name":"Sherman Meyer"}
+  {"index":{"_id":"5b0d4f3703437c01dc3b442f"}}
+  {"price":403.79,"name":"Alisha Hicks"}
+  
+  <- 200
+  {
+    "took": 611,
+    "errors": false,
+    "items": [
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37793be2f152da625e",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f3784383b8ebd7e4b92",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37a13c9981d92cb381",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37baffc30ee690af99",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 1,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f372b16ffd48a53e50b",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37265c822e73a42db3",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 1,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37b218f7a9d283c38d",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 2,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37f6fda33f2efa6e53",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 2,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f370499713c9cd007c0",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 3,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f3703437c01dc3b442f",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      }
+    ]
+  }
+
+DEBUG: 2018-05-29T13:07:06Z
+  Request complete
+
