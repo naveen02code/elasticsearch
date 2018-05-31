@@ -1672,3 +1672,3437 @@ TRACE: 2018-05-29T13:07:06Z
 DEBUG: 2018-05-29T13:07:06Z
   Request complete
 
+INFO: 2018-05-31T11:00:55Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T11:00:55Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T11:00:55Z
+  -> HEAD http://localhost:9200/
+  
+  <- 0
+  
+
+ERROR: 2018-05-31T11:00:55Z
+  Error: Request error, retrying
+  HEAD http://localhost:9200/ => connect ECONNREFUSED 127.0.0.1:9200
+      at Log.error (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/log.js:226:56)
+      at checkRespForFailure (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/transport.js:259:18)
+      at HttpConnector.<anonymous> (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/connectors/http.js:163:7)
+      at ClientRequest.wrapper (/home/daffolap-157/personal/learning/elasticsearch/node_modules/lodash/lodash.js:4949:19)
+      at emitOne (events.js:116:13)
+      at ClientRequest.emit (events.js:211:7)
+      at Socket.socketErrorListener (_http_client.js:387:9)
+      at emitOne (events.js:116:13)
+      at Socket.emit (events.js:211:7)
+      at emitErrorNT (internal/streams/destroy.js:64:8)
+
+TRACE: 2018-05-31T11:00:55Z
+  -> HEAD http://localhost:9200/
+  
+  <- 0
+  
+
+WARNING: 2018-05-31T11:00:55Z
+  Unable to revive connection: http://localhost:9200/
+
+WARNING: 2018-05-31T11:00:55Z
+  No living connections
+
+TRACE: 2018-05-31T11:02:20Z
+  -> HEAD http://localhost:9200/
+  
+  <- 0
+  
+
+TRACE: 2018-05-31T11:04:20Z
+  -> HEAD http://localhost:9200/
+  
+  <- 0
+  
+
+INFO: 2018-05-31T11:04:28Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T11:04:28Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-31T11:04:28Z
+  starting request {
+    "method": "HEAD",
+    "castExists": true,
+    "path": "/product",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T11:04:28Z
+  -> HEAD http://localhost:9200/
+  
+  <- 0
+  
+
+ERROR: 2018-05-31T11:04:28Z
+  Error: Request error, retrying
+  HEAD http://localhost:9200/ => connect ECONNREFUSED 127.0.0.1:9200
+      at Log.error (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/log.js:226:56)
+      at checkRespForFailure (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/transport.js:259:18)
+      at HttpConnector.<anonymous> (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/connectors/http.js:163:7)
+      at ClientRequest.wrapper (/home/daffolap-157/personal/learning/elasticsearch/node_modules/lodash/lodash.js:4949:19)
+      at emitOne (events.js:116:13)
+      at ClientRequest.emit (events.js:211:7)
+      at Socket.socketErrorListener (_http_client.js:387:9)
+      at emitOne (events.js:116:13)
+      at Socket.emit (events.js:211:7)
+      at emitErrorNT (internal/streams/destroy.js:64:8)
+
+TRACE: 2018-05-31T11:04:28Z
+  -> HEAD http://localhost:9200/product
+  
+  <- 0
+  
+
+ERROR: 2018-05-31T11:04:28Z
+  Error: Request error, retrying
+  HEAD http://localhost:9200/product => connect ECONNREFUSED 127.0.0.1:9200
+      at Log.error (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/log.js:226:56)
+      at checkRespForFailure (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/transport.js:259:18)
+      at HttpConnector.<anonymous> (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/connectors/http.js:163:7)
+      at ClientRequest.wrapper (/home/daffolap-157/personal/learning/elasticsearch/node_modules/lodash/lodash.js:4949:19)
+      at emitOne (events.js:116:13)
+      at ClientRequest.emit (events.js:211:7)
+      at Socket.socketErrorListener (_http_client.js:387:9)
+      at emitOne (events.js:116:13)
+      at Socket.emit (events.js:211:7)
+      at emitErrorNT (internal/streams/destroy.js:64:8)
+
+TRACE: 2018-05-31T11:04:28Z
+  -> HEAD http://localhost:9200/
+  
+  <- 0
+  
+
+WARNING: 2018-05-31T11:04:28Z
+  Unable to revive connection: http://localhost:9200/
+
+WARNING: 2018-05-31T11:04:28Z
+  No living connections
+
+TRACE: 2018-05-31T11:04:28Z
+  -> HEAD http://localhost:9200/
+  
+  <- 0
+  
+
+WARNING: 2018-05-31T11:04:28Z
+  Unable to revive connection: http://localhost:9200/
+
+WARNING: 2018-05-31T11:04:28Z
+  No living connections
+
+TRACE: 2018-05-31T11:06:29Z
+  -> HEAD http://localhost:9200/
+  
+  <- 401
+  
+
+INFO: 2018-05-31T11:06:52Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T11:06:52Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-31T11:06:52Z
+  starting request {
+    "method": "HEAD",
+    "castExists": true,
+    "path": "/product",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T11:06:52Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T11:06:52Z
+  Request complete
+
+TRACE: 2018-05-31T11:06:52Z
+  -> HEAD http://localhost:9200/product
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T11:06:52Z
+  Request complete
+
+INFO: 2018-05-31T11:15:07Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T11:15:07Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-31T11:15:07Z
+  starting request {
+    "method": "HEAD",
+    "castExists": true,
+    "path": "/product",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T11:15:07Z
+  -> HEAD http://localhost:9200/product
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T11:15:07Z
+  Request complete
+
+TRACE: 2018-05-31T11:15:07Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T11:15:07Z
+  Request complete
+
+INFO: 2018-05-31T11:15:15Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T11:15:15Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-31T11:15:15Z
+  starting request {
+    "method": "HEAD",
+    "castExists": true,
+    "path": "/product",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T11:15:15Z
+  -> HEAD http://localhost:9200/product
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T11:15:15Z
+  Request complete
+
+TRACE: 2018-05-31T11:15:15Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T11:15:15Z
+  Request complete
+
+INFO: 2018-05-31T11:16:13Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T11:16:13Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-31T11:16:13Z
+  starting request {
+    "method": "DELETE",
+    "path": "/product",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T11:16:14Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T11:16:14Z
+  Request complete
+
+TRACE: 2018-05-31T11:16:15Z
+  -> DELETE http://localhost:9200/product
+  
+  <- 200
+  {
+    "acknowledged": true
+  }
+
+DEBUG: 2018-05-31T11:16:15Z
+  Request complete
+
+INFO: 2018-05-31T11:16:49Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T11:16:49Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+DEBUG: 2018-05-31T11:16:49Z
+  starting request {
+    "method": "HEAD",
+    "castExists": true,
+    "path": "/product",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T11:16:49Z
+  -> HEAD http://localhost:9200/product
+  
+  <- 404
+  
+
+DEBUG: 2018-05-31T11:16:49Z
+  Request complete
+
+TRACE: 2018-05-31T11:16:53Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T11:16:53Z
+  Request complete
+
+INFO: 2018-05-31T11:28:13Z
+  Adding connection to http://localhost:9200/
+
+INFO: 2018-05-31T11:28:37Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T11:28:37Z
+  starting request {
+    "method": "POST",
+    "path": "/_count",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T11:28:39Z
+  -> POST http://localhost:9200/_count
+  
+  <- 200
+  {
+    "count": 227627,
+    "_shards": {
+      "total": 39,
+      "successful": 39,
+      "skipped": 0,
+      "failed": 0
+    }
+  }
+
+DEBUG: 2018-05-31T11:28:39Z
+  Request complete
+
+DEBUG: 2018-05-31T11:29:33Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T11:29:33Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T11:29:33Z
+  Request complete
+
+INFO: 2018-05-31T11:36:19Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T11:36:21Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T11:36:21Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T11:36:21Z
+  Request complete
+
+DEBUG: 2018-05-31T11:36:23Z
+  starting request {
+    "method": "HEAD",
+    "castExists": true,
+    "path": "/product",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T11:36:23Z
+  -> HEAD http://localhost:9200/product
+  
+  <- 404
+  
+
+DEBUG: 2018-05-31T11:36:23Z
+  Request complete
+
+DEBUG: 2018-05-31T11:36:30Z
+  starting request {
+    "method": "POST",
+    "bulkBody": true,
+    "path": "/product/_doc/_bulk",
+    "body": [
+      {
+        "index": {
+          "_id": "5b0d4f37793be2f152da625e"
+        }
+      },
+      {
+        "price": 98.94,
+        "name": "Camille Obrien"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f3784383b8ebd7e4b92"
+        }
+      },
+      {
+        "price": 432.68,
+        "name": "Henson Mitchell"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37a13c9981d92cb381"
+        }
+      },
+      {
+        "price": 667.9,
+        "name": "Waller Peterson"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37baffc30ee690af99"
+        }
+      },
+      {
+        "price": 576.58,
+        "name": "Blanca Cohen"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f372b16ffd48a53e50b"
+        }
+      },
+      {
+        "price": 875.79,
+        "name": "Brandy Bradshaw"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37265c822e73a42db3"
+        }
+      },
+      {
+        "id": "5b0d4f37265c822e73a42db3",
+        "price": 954.19,
+        "name": "Mcgowan Lindsey"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37b218f7a9d283c38d"
+        }
+      },
+      {
+        "price": 554.05,
+        "name": "Bender Chapman"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37f6fda33f2efa6e53"
+        }
+      },
+      {
+        "price": 92.85,
+        "name": "Acosta Higgins"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f370499713c9cd007c0"
+        }
+      },
+      {
+        "price": 15.79,
+        "name": "Sherman Meyer"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f3703437c01dc3b442f"
+        }
+      },
+      {
+        "price": 403.79,
+        "name": "Alisha Hicks"
+      }
+    ],
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T11:36:33Z
+  -> POST http://localhost:9200/product/_doc/_bulk
+  {"index":{"_id":"5b0d4f37793be2f152da625e"}}
+  {"price":98.94,"name":"Camille Obrien"}
+  {"index":{"_id":"5b0d4f3784383b8ebd7e4b92"}}
+  {"price":432.68,"name":"Henson Mitchell"}
+  {"index":{"_id":"5b0d4f37a13c9981d92cb381"}}
+  {"price":667.9,"name":"Waller Peterson"}
+  {"index":{"_id":"5b0d4f37baffc30ee690af99"}}
+  {"price":576.58,"name":"Blanca Cohen"}
+  {"index":{"_id":"5b0d4f372b16ffd48a53e50b"}}
+  {"price":875.79,"name":"Brandy Bradshaw"}
+  {"index":{"_id":"5b0d4f37265c822e73a42db3"}}
+  {"id":"5b0d4f37265c822e73a42db3","price":954.19,"name":"Mcgowan Lindsey"}
+  {"index":{"_id":"5b0d4f37b218f7a9d283c38d"}}
+  {"price":554.05,"name":"Bender Chapman"}
+  {"index":{"_id":"5b0d4f37f6fda33f2efa6e53"}}
+  {"price":92.85,"name":"Acosta Higgins"}
+  {"index":{"_id":"5b0d4f370499713c9cd007c0"}}
+  {"price":15.79,"name":"Sherman Meyer"}
+  {"index":{"_id":"5b0d4f3703437c01dc3b442f"}}
+  {"price":403.79,"name":"Alisha Hicks"}
+  
+  <- 200
+  {
+    "took": 2356,
+    "errors": false,
+    "items": [
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37793be2f152da625e",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f3784383b8ebd7e4b92",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37a13c9981d92cb381",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37baffc30ee690af99",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 1,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f372b16ffd48a53e50b",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37265c822e73a42db3",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 1,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37b218f7a9d283c38d",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 2,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37f6fda33f2efa6e53",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 2,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f370499713c9cd007c0",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 3,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f3703437c01dc3b442f",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      }
+    ]
+  }
+
+DEBUG: 2018-05-31T11:36:33Z
+  Request complete
+
+INFO: 2018-05-31T11:41:01Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T11:41:01Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T11:41:01Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T11:41:01Z
+  Request complete
+
+DEBUG: 2018-05-31T11:41:01Z
+  starting request {
+    "method": "PUT",
+    "path": "/product",
+    "body": {
+      "mappings": {
+        "_doc": {
+          "properties": {
+            "name": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword"
+                }
+              }
+            },
+            "price": {
+              "type": "scaled_float",
+              "scaling_factor": 100,
+              "doc_values": true
+            }
+          }
+        }
+      }
+    },
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T11:41:01Z
+  -> PUT http://localhost:9200/product
+  {
+    "mappings": {
+      "_doc": {
+        "properties": {
+          "name": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword"
+              }
+            }
+          },
+          "price": {
+            "type": "scaled_float",
+            "scaling_factor": 100,
+            "doc_values": true
+          }
+        }
+      }
+    }
+  }
+  <- 400
+  {
+    "error": {
+      "root_cause": [
+        {
+          "type": "resource_already_exists_exception",
+          "reason": "index [product/hi7mq8SkRzWB6s-Ve9vW2w] already exists",
+          "index_uuid": "hi7mq8SkRzWB6s-Ve9vW2w",
+          "index": "product"
+        }
+      ],
+      "type": "resource_already_exists_exception",
+      "reason": "index [product/hi7mq8SkRzWB6s-Ve9vW2w] already exists",
+      "index_uuid": "hi7mq8SkRzWB6s-Ve9vW2w",
+      "index": "product"
+    },
+    "status": 400
+  }
+
+DEBUG: 2018-05-31T11:41:01Z
+  Request complete
+
+INFO: 2018-05-31T11:41:47Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T11:41:47Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T11:41:47Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T11:41:47Z
+  Request complete
+
+DEBUG: 2018-05-31T11:41:47Z
+  starting request {
+    "method": "DELETE",
+    "path": "/product",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T11:41:49Z
+  -> DELETE http://localhost:9200/product
+  
+  <- 200
+  {
+    "acknowledged": true
+  }
+
+DEBUG: 2018-05-31T11:41:49Z
+  Request complete
+
+DEBUG: 2018-05-31T11:41:49Z
+  starting request {
+    "method": "PUT",
+    "path": "/product",
+    "body": {
+      "mappings": {
+        "_doc": {
+          "properties": {
+            "name": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword"
+                }
+              }
+            },
+            "price": {
+              "type": "scaled_float",
+              "scaling_factor": 100,
+              "doc_values": true
+            }
+          }
+        }
+      }
+    },
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T11:41:51Z
+  -> PUT http://localhost:9200/product
+  {
+    "mappings": {
+      "_doc": {
+        "properties": {
+          "name": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword"
+              }
+            }
+          },
+          "price": {
+            "type": "scaled_float",
+            "scaling_factor": 100,
+            "doc_values": true
+          }
+        }
+      }
+    }
+  }
+  <- 200
+  {
+    "acknowledged": true,
+    "shards_acknowledged": true,
+    "index": "product"
+  }
+
+DEBUG: 2018-05-31T11:41:51Z
+  Request complete
+
+DEBUG: 2018-05-31T11:41:51Z
+  starting request {
+    "method": "HEAD",
+    "castExists": true,
+    "path": "/product",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T11:41:51Z
+  -> HEAD http://localhost:9200/product
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T11:41:51Z
+  Request complete
+
+DEBUG: 2018-05-31T11:41:51Z
+  starting request {
+    "method": "POST",
+    "bulkBody": true,
+    "path": "/product/_doc/_bulk",
+    "body": [
+      {
+        "index": {
+          "_id": "5b0d4f37793be2f152da625e"
+        }
+      },
+      {
+        "price": 98.94,
+        "name": "Camille Obrien"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f3784383b8ebd7e4b92"
+        }
+      },
+      {
+        "price": 432.68,
+        "name": "Henson Mitchell"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37a13c9981d92cb381"
+        }
+      },
+      {
+        "price": 667.9,
+        "name": "Waller Peterson"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37baffc30ee690af99"
+        }
+      },
+      {
+        "price": 576.58,
+        "name": "Blanca Cohen"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f372b16ffd48a53e50b"
+        }
+      },
+      {
+        "price": 875.79,
+        "name": "Brandy Bradshaw"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37265c822e73a42db3"
+        }
+      },
+      {
+        "id": "5b0d4f37265c822e73a42db3",
+        "price": 954.19,
+        "name": "Mcgowan Lindsey"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37b218f7a9d283c38d"
+        }
+      },
+      {
+        "price": 554.05,
+        "name": "Bender Chapman"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f37f6fda33f2efa6e53"
+        }
+      },
+      {
+        "price": 92.85,
+        "name": "Acosta Higgins"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f370499713c9cd007c0"
+        }
+      },
+      {
+        "price": 15.79,
+        "name": "Sherman Meyer"
+      },
+      {
+        "index": {
+          "_id": "5b0d4f3703437c01dc3b442f"
+        }
+      },
+      {
+        "price": 403.79,
+        "name": "Alisha Hicks"
+      }
+    ],
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T11:41:51Z
+  -> POST http://localhost:9200/product/_doc/_bulk
+  {"index":{"_id":"5b0d4f37793be2f152da625e"}}
+  {"price":98.94,"name":"Camille Obrien"}
+  {"index":{"_id":"5b0d4f3784383b8ebd7e4b92"}}
+  {"price":432.68,"name":"Henson Mitchell"}
+  {"index":{"_id":"5b0d4f37a13c9981d92cb381"}}
+  {"price":667.9,"name":"Waller Peterson"}
+  {"index":{"_id":"5b0d4f37baffc30ee690af99"}}
+  {"price":576.58,"name":"Blanca Cohen"}
+  {"index":{"_id":"5b0d4f372b16ffd48a53e50b"}}
+  {"price":875.79,"name":"Brandy Bradshaw"}
+  {"index":{"_id":"5b0d4f37265c822e73a42db3"}}
+  {"id":"5b0d4f37265c822e73a42db3","price":954.19,"name":"Mcgowan Lindsey"}
+  {"index":{"_id":"5b0d4f37b218f7a9d283c38d"}}
+  {"price":554.05,"name":"Bender Chapman"}
+  {"index":{"_id":"5b0d4f37f6fda33f2efa6e53"}}
+  {"price":92.85,"name":"Acosta Higgins"}
+  {"index":{"_id":"5b0d4f370499713c9cd007c0"}}
+  {"price":15.79,"name":"Sherman Meyer"}
+  {"index":{"_id":"5b0d4f3703437c01dc3b442f"}}
+  {"price":403.79,"name":"Alisha Hicks"}
+  
+  <- 200
+  {
+    "took": 442,
+    "errors": false,
+    "items": [
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37793be2f152da625e",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f3784383b8ebd7e4b92",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37a13c9981d92cb381",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37baffc30ee690af99",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 1,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f372b16ffd48a53e50b",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37265c822e73a42db3",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 1,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37b218f7a9d283c38d",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 2,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37f6fda33f2efa6e53",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 2,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f370499713c9cd007c0",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 3,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f3703437c01dc3b442f",
+          "_version": 1,
+          "result": "created",
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      }
+    ]
+  }
+
+DEBUG: 2018-05-31T11:41:51Z
+  Request complete
+
+INFO: 2018-05-31T12:31:21Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T12:31:21Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T12:31:21Z
+  -> HEAD http://localhost:9200/
+  
+  <- 0
+  
+
+ERROR: 2018-05-31T12:31:21Z
+  Error: Request error, retrying
+  HEAD http://localhost:9200/ => connect ECONNREFUSED 127.0.0.1:9200
+      at Log.error (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/log.js:226:56)
+      at checkRespForFailure (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/transport.js:259:18)
+      at HttpConnector.<anonymous> (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/connectors/http.js:163:7)
+      at ClientRequest.wrapper (/home/daffolap-157/personal/learning/elasticsearch/node_modules/lodash/lodash.js:4949:19)
+      at emitOne (events.js:116:13)
+      at ClientRequest.emit (events.js:211:7)
+      at Socket.socketErrorListener (_http_client.js:387:9)
+      at emitOne (events.js:116:13)
+      at Socket.emit (events.js:211:7)
+      at emitErrorNT (internal/streams/destroy.js:64:8)
+
+TRACE: 2018-05-31T12:31:21Z
+  -> HEAD http://localhost:9200/
+  
+  <- 0
+  
+
+WARNING: 2018-05-31T12:31:21Z
+  Unable to revive connection: http://localhost:9200/
+
+WARNING: 2018-05-31T12:31:21Z
+  No living connections
+
+TRACE: 2018-05-31T12:32:46Z
+  -> HEAD http://localhost:9200/
+  
+  <- 0
+  
+
+INFO: 2018-05-31T12:33:05Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T12:33:05Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T12:33:05Z
+  -> HEAD http://localhost:9200/
+  
+  <- 0
+  
+
+ERROR: 2018-05-31T12:33:05Z
+  Error: Request error, retrying
+  HEAD http://localhost:9200/ => connect ECONNREFUSED 127.0.0.1:9200
+      at Log.error (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/log.js:226:56)
+      at checkRespForFailure (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/transport.js:259:18)
+      at HttpConnector.<anonymous> (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/connectors/http.js:163:7)
+      at ClientRequest.wrapper (/home/daffolap-157/personal/learning/elasticsearch/node_modules/lodash/lodash.js:4949:19)
+      at emitOne (events.js:116:13)
+      at ClientRequest.emit (events.js:211:7)
+      at Socket.socketErrorListener (_http_client.js:387:9)
+      at emitOne (events.js:116:13)
+      at Socket.emit (events.js:211:7)
+      at emitErrorNT (internal/streams/destroy.js:64:8)
+
+TRACE: 2018-05-31T12:33:05Z
+  -> HEAD http://localhost:9200/
+  
+  <- 0
+  
+
+WARNING: 2018-05-31T12:33:05Z
+  Unable to revive connection: http://localhost:9200/
+
+WARNING: 2018-05-31T12:33:05Z
+  No living connections
+
+INFO: 2018-05-31T12:33:16Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T12:33:16Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T12:33:16Z
+  -> HEAD http://localhost:9200/
+  
+  <- 0
+  
+
+ERROR: 2018-05-31T12:33:16Z
+  Error: Request error, retrying
+  HEAD http://localhost:9200/ => connect ECONNREFUSED 127.0.0.1:9200
+      at Log.error (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/log.js:226:56)
+      at checkRespForFailure (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/transport.js:259:18)
+      at HttpConnector.<anonymous> (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/connectors/http.js:163:7)
+      at ClientRequest.wrapper (/home/daffolap-157/personal/learning/elasticsearch/node_modules/lodash/lodash.js:4949:19)
+      at emitOne (events.js:116:13)
+      at ClientRequest.emit (events.js:211:7)
+      at Socket.socketErrorListener (_http_client.js:387:9)
+      at emitOne (events.js:116:13)
+      at Socket.emit (events.js:211:7)
+      at emitErrorNT (internal/streams/destroy.js:64:8)
+
+TRACE: 2018-05-31T12:33:17Z
+  -> HEAD http://localhost:9200/
+  
+  <- 0
+  
+
+WARNING: 2018-05-31T12:33:17Z
+  Unable to revive connection: http://localhost:9200/
+
+WARNING: 2018-05-31T12:33:17Z
+  No living connections
+
+INFO: 2018-05-31T12:33:34Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T12:33:35Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T12:33:36Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T12:33:36Z
+  Request complete
+
+DEBUG: 2018-05-31T12:33:38Z
+  starting request {
+    "method": "GET",
+    "path": "/product/_doc/5b0d4f3703437c01dc3b442f",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T12:33:38Z
+  -> GET http://localhost:9200/product/_doc/5b0d4f3703437c01dc3b442f
+  
+  <- 200
+  {
+    "_index": "product",
+    "_type": "_doc",
+    "_id": "5b0d4f3703437c01dc3b442f",
+    "_version": 1,
+    "found": true,
+    "_source": {
+      "price": 403.79,
+      "name": "Alisha Hicks"
+    }
+  }
+
+DEBUG: 2018-05-31T12:33:38Z
+  Request complete
+
+INFO: 2018-05-31T12:35:51Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T12:35:51Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T12:35:51Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T12:35:51Z
+  Request complete
+
+DEBUG: 2018-05-31T12:35:53Z
+  starting request {
+    "method": "GET",
+    "path": "/product/_doc/5b0d4f3703437c01dc3b442f/_source",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T12:35:53Z
+  -> GET http://localhost:9200/product/_doc/5b0d4f3703437c01dc3b442f/_source
+  
+  <- 200
+  {
+    "price": 403.79,
+    "name": "Alisha Hicks"
+  }
+
+DEBUG: 2018-05-31T12:35:53Z
+  Request complete
+
+INFO: 2018-05-31T12:37:02Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T12:37:02Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T12:37:02Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T12:37:02Z
+  Request complete
+
+DEBUG: 2018-05-31T12:37:02Z
+  starting request {
+    "method": "GET",
+    "path": "/product/_doc/5b0d4f3703437c01dc3b442f/_source",
+    "query": {
+      "_source_include": "_id,_name"
+    }
+  }
+  
+
+TRACE: 2018-05-31T12:37:02Z
+  -> GET http://localhost:9200/product/_doc/5b0d4f3703437c01dc3b442f/_source?_source_include=_id%2C_name
+  
+  <- 200
+  {}
+
+DEBUG: 2018-05-31T12:37:02Z
+  Request complete
+
+INFO: 2018-05-31T12:37:36Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T12:37:36Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T12:37:36Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T12:37:36Z
+  Request complete
+
+DEBUG: 2018-05-31T12:37:36Z
+  starting request {
+    "method": "GET",
+    "path": "/product/_doc/5b0d4f3703437c01dc3b442f/_source",
+    "query": {
+      "_source": "_id,_name"
+    }
+  }
+  
+
+TRACE: 2018-05-31T12:37:37Z
+  -> GET http://localhost:9200/product/_doc/5b0d4f3703437c01dc3b442f/_source?_source=_id%2C_name
+  
+  <- 200
+  {}
+
+DEBUG: 2018-05-31T12:37:37Z
+  Request complete
+
+INFO: 2018-05-31T13:05:40Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T13:05:40Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:05:40Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T13:05:40Z
+  Request complete
+
+DEBUG: 2018-05-31T13:05:40Z
+  starting request {
+    "method": "GET",
+    "path": "/product/_doc/5b0d4f3703437c01dc3b442f",
+    "query": {
+      "_source": "_id,_name"
+    }
+  }
+  
+
+TRACE: 2018-05-31T13:05:40Z
+  -> GET http://localhost:9200/product/_doc/5b0d4f3703437c01dc3b442f?_source=_id%2C_name
+  
+  <- 200
+  {
+    "_index": "product",
+    "_type": "_doc",
+    "_id": "5b0d4f3703437c01dc3b442f",
+    "_version": 1,
+    "found": true,
+    "_source": {}
+  }
+
+DEBUG: 2018-05-31T13:05:40Z
+  Request complete
+
+DEBUG: 2018-05-31T13:05:40Z
+  starting request {
+    "method": "POST",
+    "path": "/product/_doc/_search",
+    "body": {
+      "query": {
+        "wildcard": {
+          "name": "*ish*"
+        }
+      },
+      "sort": [
+        {
+          "price": "asc"
+        }
+      ],
+      "_source": [
+        "name",
+        "price",
+        "_id"
+      ],
+      "from": 0,
+      "size": 10
+    },
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:05:40Z
+  -> POST http://localhost:9200/product/_doc/_search
+  {
+    "query": {
+      "wildcard": {
+        "name": "*ish*"
+      }
+    },
+    "sort": [
+      {
+        "price": "asc"
+      }
+    ],
+    "_source": [
+      "name",
+      "price",
+      "_id"
+    ],
+    "from": 0,
+    "size": 10
+  }
+  <- 200
+  {
+    "took": 109,
+    "timed_out": false,
+    "_shards": {
+      "total": 5,
+      "successful": 5,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": 1,
+      "max_score": null,
+      "hits": [
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f3703437c01dc3b442f",
+          "_score": null,
+          "_source": {
+            "price": 403.79,
+            "name": "Alisha Hicks"
+          },
+          "sort": [
+            403.79
+          ]
+        }
+      ]
+    }
+  }
+
+DEBUG: 2018-05-31T13:05:40Z
+  Request complete
+
+INFO: 2018-05-31T13:06:09Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T13:06:09Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:06:09Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T13:06:09Z
+  Request complete
+
+DEBUG: 2018-05-31T13:06:09Z
+  starting request {
+    "method": "GET",
+    "path": "/product/_doc/5b0d4f3703437c01dc3b442f",
+    "query": {
+      "_source": "_id,_name"
+    }
+  }
+  
+
+TRACE: 2018-05-31T13:06:09Z
+  -> GET http://localhost:9200/product/_doc/5b0d4f3703437c01dc3b442f?_source=_id%2C_name
+  
+  <- 200
+  {
+    "_index": "product",
+    "_type": "_doc",
+    "_id": "5b0d4f3703437c01dc3b442f",
+    "_version": 1,
+    "found": true,
+    "_source": {}
+  }
+
+DEBUG: 2018-05-31T13:06:09Z
+  Request complete
+
+DEBUG: 2018-05-31T13:06:09Z
+  starting request {
+    "method": "POST",
+    "path": "/product/_doc/_search",
+    "body": {
+      "query": {
+        "wildcard": {
+          "name": "*ish*"
+        }
+      },
+      "sort": [
+        {
+          "price": "asc"
+        }
+      ],
+      "_source": [
+        "name",
+        "price",
+        "_id"
+      ],
+      "from": 0,
+      "size": 10
+    },
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:06:09Z
+  -> POST http://localhost:9200/product/_doc/_search
+  {
+    "query": {
+      "wildcard": {
+        "name": "*ish*"
+      }
+    },
+    "sort": [
+      {
+        "price": "asc"
+      }
+    ],
+    "_source": [
+      "name",
+      "price",
+      "_id"
+    ],
+    "from": 0,
+    "size": 10
+  }
+  <- 200
+  {
+    "took": 21,
+    "timed_out": false,
+    "_shards": {
+      "total": 5,
+      "successful": 5,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": 1,
+      "max_score": null,
+      "hits": [
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f3703437c01dc3b442f",
+          "_score": null,
+          "_source": {
+            "price": 403.79,
+            "name": "Alisha Hicks"
+          },
+          "sort": [
+            403.79
+          ]
+        }
+      ]
+    }
+  }
+
+DEBUG: 2018-05-31T13:06:09Z
+  Request complete
+
+INFO: 2018-05-31T13:07:05Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T13:07:05Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:07:05Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T13:07:05Z
+  Request complete
+
+DEBUG: 2018-05-31T13:07:05Z
+  starting request {
+    "method": "GET",
+    "path": "/product/_doc/5b0d4f3703437c01dc3b442f",
+    "query": {
+      "_source": "_id,_name"
+    }
+  }
+  
+
+TRACE: 2018-05-31T13:07:05Z
+  -> GET http://localhost:9200/product/_doc/5b0d4f3703437c01dc3b442f?_source=_id%2C_name
+  
+  <- 200
+  {
+    "_index": "product",
+    "_type": "_doc",
+    "_id": "5b0d4f3703437c01dc3b442f",
+    "_version": 1,
+    "found": true,
+    "_source": {}
+  }
+
+DEBUG: 2018-05-31T13:07:05Z
+  Request complete
+
+DEBUG: 2018-05-31T13:07:05Z
+  starting request {
+    "method": "POST",
+    "path": "/product/_doc/_search",
+    "body": {
+      "query": {
+        "wildcard": {
+          "name": "*is*"
+        }
+      },
+      "sort": [
+        {
+          "price": "asc"
+        }
+      ],
+      "_source": [
+        "name",
+        "price",
+        "_id"
+      ],
+      "from": 0,
+      "size": 10
+    },
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:07:05Z
+  -> POST http://localhost:9200/product/_doc/_search
+  {
+    "query": {
+      "wildcard": {
+        "name": "*is*"
+      }
+    },
+    "sort": [
+      {
+        "price": "asc"
+      }
+    ],
+    "_source": [
+      "name",
+      "price",
+      "_id"
+    ],
+    "from": 0,
+    "size": 10
+  }
+  <- 200
+  {
+    "took": 11,
+    "timed_out": false,
+    "_shards": {
+      "total": 5,
+      "successful": 5,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": 1,
+      "max_score": null,
+      "hits": [
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f3703437c01dc3b442f",
+          "_score": null,
+          "_source": {
+            "price": 403.79,
+            "name": "Alisha Hicks"
+          },
+          "sort": [
+            403.79
+          ]
+        }
+      ]
+    }
+  }
+
+DEBUG: 2018-05-31T13:07:05Z
+  Request complete
+
+INFO: 2018-05-31T13:07:29Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T13:07:29Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:07:29Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T13:07:29Z
+  Request complete
+
+DEBUG: 2018-05-31T13:07:29Z
+  starting request {
+    "method": "GET",
+    "path": "/product/_doc/5b0d4f3703437c01dc3b442f",
+    "query": {
+      "_source": "_id,_name"
+    }
+  }
+  
+
+TRACE: 2018-05-31T13:07:29Z
+  -> GET http://localhost:9200/product/_doc/5b0d4f3703437c01dc3b442f?_source=_id%2C_name
+  
+  <- 200
+  {
+    "_index": "product",
+    "_type": "_doc",
+    "_id": "5b0d4f3703437c01dc3b442f",
+    "_version": 1,
+    "found": true,
+    "_source": {}
+  }
+
+DEBUG: 2018-05-31T13:07:29Z
+  Request complete
+
+DEBUG: 2018-05-31T13:07:29Z
+  starting request {
+    "method": "POST",
+    "path": "/product/_doc/_search",
+    "body": {
+      "query": {
+        "wildcard": {
+          "name": "*a*"
+        }
+      },
+      "sort": [
+        {
+          "price": "asc"
+        }
+      ],
+      "_source": [
+        "name",
+        "price",
+        "_id"
+      ],
+      "from": 0,
+      "size": 10
+    },
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:07:29Z
+  -> POST http://localhost:9200/product/_doc/_search
+  {
+    "query": {
+      "wildcard": {
+        "name": "*a*"
+      }
+    },
+    "sort": [
+      {
+        "price": "asc"
+      }
+    ],
+    "_source": [
+      "name",
+      "price",
+      "_id"
+    ],
+    "from": 0,
+    "size": 10
+  }
+  <- 200
+  {
+    "took": 27,
+    "timed_out": false,
+    "_shards": {
+      "total": 5,
+      "successful": 5,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": 9,
+      "max_score": null,
+      "hits": [
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f370499713c9cd007c0",
+          "_score": null,
+          "_source": {
+            "price": 15.79,
+            "name": "Sherman Meyer"
+          },
+          "sort": [
+            15.790000000000001
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37f6fda33f2efa6e53",
+          "_score": null,
+          "_source": {
+            "price": 92.85,
+            "name": "Acosta Higgins"
+          },
+          "sort": [
+            92.85000000000001
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37793be2f152da625e",
+          "_score": null,
+          "_source": {
+            "price": 98.94,
+            "name": "Camille Obrien"
+          },
+          "sort": [
+            98.94
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f3703437c01dc3b442f",
+          "_score": null,
+          "_source": {
+            "price": 403.79,
+            "name": "Alisha Hicks"
+          },
+          "sort": [
+            403.79
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37b218f7a9d283c38d",
+          "_score": null,
+          "_source": {
+            "price": 554.05,
+            "name": "Bender Chapman"
+          },
+          "sort": [
+            554.0500000000001
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37baffc30ee690af99",
+          "_score": null,
+          "_source": {
+            "price": 576.58,
+            "name": "Blanca Cohen"
+          },
+          "sort": [
+            576.58
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37a13c9981d92cb381",
+          "_score": null,
+          "_source": {
+            "price": 667.9,
+            "name": "Waller Peterson"
+          },
+          "sort": [
+            667.9
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f372b16ffd48a53e50b",
+          "_score": null,
+          "_source": {
+            "price": 875.79,
+            "name": "Brandy Bradshaw"
+          },
+          "sort": [
+            875.79
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37265c822e73a42db3",
+          "_score": null,
+          "_source": {
+            "price": 954.19,
+            "name": "Mcgowan Lindsey"
+          },
+          "sort": [
+            954.19
+          ]
+        }
+      ]
+    }
+  }
+
+DEBUG: 2018-05-31T13:07:29Z
+  Request complete
+
+INFO: 2018-05-31T13:08:29Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T13:08:29Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:08:29Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T13:08:29Z
+  Request complete
+
+DEBUG: 2018-05-31T13:08:29Z
+  starting request {
+    "method": "GET",
+    "path": "/product/_doc/5b0d4f3703437c01dc3b442f",
+    "query": {
+      "_source": "_id,_name"
+    }
+  }
+  
+
+TRACE: 2018-05-31T13:08:29Z
+  -> GET http://localhost:9200/product/_doc/5b0d4f3703437c01dc3b442f?_source=_id%2C_name
+  
+  <- 200
+  {
+    "_index": "product",
+    "_type": "_doc",
+    "_id": "5b0d4f3703437c01dc3b442f",
+    "_version": 1,
+    "found": true,
+    "_source": {}
+  }
+
+DEBUG: 2018-05-31T13:08:29Z
+  Request complete
+
+DEBUG: 2018-05-31T13:08:29Z
+  starting request {
+    "method": "POST",
+    "path": "/product/_doc/_search",
+    "body": {
+      "query": {
+        "wildcard": {
+          "name": "*an*"
+        }
+      },
+      "sort": [
+        {
+          "price": "asc"
+        }
+      ],
+      "_source": [
+        "name",
+        "price",
+        "_id"
+      ],
+      "from": 0,
+      "size": 10
+    },
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:08:29Z
+  -> POST http://localhost:9200/product/_doc/_search
+  {
+    "query": {
+      "wildcard": {
+        "name": "*an*"
+      }
+    },
+    "sort": [
+      {
+        "price": "asc"
+      }
+    ],
+    "_source": [
+      "name",
+      "price",
+      "_id"
+    ],
+    "from": 0,
+    "size": 10
+  }
+  <- 200
+  {
+    "took": 6,
+    "timed_out": false,
+    "_shards": {
+      "total": 5,
+      "successful": 5,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": 5,
+      "max_score": null,
+      "hits": [
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f370499713c9cd007c0",
+          "_score": null,
+          "_source": {
+            "price": 15.79,
+            "name": "Sherman Meyer"
+          },
+          "sort": [
+            15.790000000000001
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37b218f7a9d283c38d",
+          "_score": null,
+          "_source": {
+            "price": 554.05,
+            "name": "Bender Chapman"
+          },
+          "sort": [
+            554.0500000000001
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37baffc30ee690af99",
+          "_score": null,
+          "_source": {
+            "price": 576.58,
+            "name": "Blanca Cohen"
+          },
+          "sort": [
+            576.58
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f372b16ffd48a53e50b",
+          "_score": null,
+          "_source": {
+            "price": 875.79,
+            "name": "Brandy Bradshaw"
+          },
+          "sort": [
+            875.79
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37265c822e73a42db3",
+          "_score": null,
+          "_source": {
+            "price": 954.19,
+            "name": "Mcgowan Lindsey"
+          },
+          "sort": [
+            954.19
+          ]
+        }
+      ]
+    }
+  }
+
+DEBUG: 2018-05-31T13:08:29Z
+  Request complete
+
+INFO: 2018-05-31T13:08:40Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T13:08:40Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:08:40Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T13:08:40Z
+  Request complete
+
+DEBUG: 2018-05-31T13:08:40Z
+  starting request {
+    "method": "GET",
+    "path": "/product/_doc/5b0d4f3703437c01dc3b442f",
+    "query": {
+      "_source": "_id,_name"
+    }
+  }
+  
+
+TRACE: 2018-05-31T13:08:40Z
+  -> GET http://localhost:9200/product/_doc/5b0d4f3703437c01dc3b442f?_source=_id%2C_name
+  
+  <- 200
+  {
+    "_index": "product",
+    "_type": "_doc",
+    "_id": "5b0d4f3703437c01dc3b442f",
+    "_version": 1,
+    "found": true,
+    "_source": {}
+  }
+
+DEBUG: 2018-05-31T13:08:40Z
+  Request complete
+
+DEBUG: 2018-05-31T13:08:40Z
+  starting request {
+    "method": "POST",
+    "path": "/product/_doc/_search",
+    "body": {
+      "query": {
+        "wildcard": {
+          "name": "*an*"
+        }
+      },
+      "sort": [
+        {
+          "price": "asc"
+        }
+      ],
+      "_source": [
+        "name",
+        "price",
+        "_id"
+      ],
+      "from": 0,
+      "size": 10
+    },
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:08:40Z
+  -> POST http://localhost:9200/product/_doc/_search
+  {
+    "query": {
+      "wildcard": {
+        "name": "*an*"
+      }
+    },
+    "sort": [
+      {
+        "price": "asc"
+      }
+    ],
+    "_source": [
+      "name",
+      "price",
+      "_id"
+    ],
+    "from": 0,
+    "size": 10
+  }
+  <- 200
+  {
+    "took": 3,
+    "timed_out": false,
+    "_shards": {
+      "total": 5,
+      "successful": 5,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": 5,
+      "max_score": null,
+      "hits": [
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f370499713c9cd007c0",
+          "_score": null,
+          "_source": {
+            "price": 15.79,
+            "name": "Sherman Meyer"
+          },
+          "sort": [
+            15.790000000000001
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37b218f7a9d283c38d",
+          "_score": null,
+          "_source": {
+            "price": 554.05,
+            "name": "Bender Chapman"
+          },
+          "sort": [
+            554.0500000000001
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37baffc30ee690af99",
+          "_score": null,
+          "_source": {
+            "price": 576.58,
+            "name": "Blanca Cohen"
+          },
+          "sort": [
+            576.58
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f372b16ffd48a53e50b",
+          "_score": null,
+          "_source": {
+            "price": 875.79,
+            "name": "Brandy Bradshaw"
+          },
+          "sort": [
+            875.79
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37265c822e73a42db3",
+          "_score": null,
+          "_source": {
+            "price": 954.19,
+            "name": "Mcgowan Lindsey"
+          },
+          "sort": [
+            954.19
+          ]
+        }
+      ]
+    }
+  }
+
+DEBUG: 2018-05-31T13:08:40Z
+  Request complete
+
+INFO: 2018-05-31T13:09:38Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T13:09:38Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:09:38Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T13:09:38Z
+  Request complete
+
+DEBUG: 2018-05-31T13:09:38Z
+  starting request {
+    "method": "GET",
+    "path": "/product/_doc/5b0d4f3703437c01dc3b442f",
+    "query": {
+      "_source": "_id,_name"
+    }
+  }
+  
+
+TRACE: 2018-05-31T13:09:38Z
+  -> GET http://localhost:9200/product/_doc/5b0d4f3703437c01dc3b442f?_source=_id%2C_name
+  
+  <- 200
+  {
+    "_index": "product",
+    "_type": "_doc",
+    "_id": "5b0d4f3703437c01dc3b442f",
+    "_version": 1,
+    "found": true,
+    "_source": {}
+  }
+
+DEBUG: 2018-05-31T13:09:38Z
+  Request complete
+
+DEBUG: 2018-05-31T13:09:38Z
+  starting request {
+    "method": "POST",
+    "path": "/product/_doc/_search",
+    "body": {
+      "query": {
+        "wildcard": {
+          "name": "*Lind*"
+        }
+      },
+      "sort": [
+        {
+          "price": "asc"
+        }
+      ],
+      "_source": [
+        "name",
+        "price",
+        "_id"
+      ],
+      "from": 0,
+      "size": 10
+    },
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:09:38Z
+  -> POST http://localhost:9200/product/_doc/_search
+  {
+    "query": {
+      "wildcard": {
+        "name": "*Lind*"
+      }
+    },
+    "sort": [
+      {
+        "price": "asc"
+      }
+    ],
+    "_source": [
+      "name",
+      "price",
+      "_id"
+    ],
+    "from": 0,
+    "size": 10
+  }
+  <- 200
+  {
+    "took": 8,
+    "timed_out": false,
+    "_shards": {
+      "total": 5,
+      "successful": 5,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": 0,
+      "max_score": null,
+      "hits": []
+    }
+  }
+
+DEBUG: 2018-05-31T13:09:38Z
+  Request complete
+
+INFO: 2018-05-31T13:10:06Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T13:10:06Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:10:06Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T13:10:06Z
+  Request complete
+
+DEBUG: 2018-05-31T13:10:06Z
+  starting request {
+    "method": "GET",
+    "path": "/product/_doc/5b0d4f3703437c01dc3b442f",
+    "query": {
+      "_source": "_id,_name"
+    }
+  }
+  
+
+TRACE: 2018-05-31T13:10:06Z
+  -> GET http://localhost:9200/product/_doc/5b0d4f3703437c01dc3b442f?_source=_id%2C_name
+  
+  <- 200
+  {
+    "_index": "product",
+    "_type": "_doc",
+    "_id": "5b0d4f3703437c01dc3b442f",
+    "_version": 1,
+    "found": true,
+    "_source": {}
+  }
+
+DEBUG: 2018-05-31T13:10:06Z
+  Request complete
+
+DEBUG: 2018-05-31T13:10:06Z
+  starting request {
+    "method": "POST",
+    "path": "/product/_doc/_search",
+    "body": {
+      "query": {
+        "wildcard": {
+          "name": "*Lind*"
+        }
+      },
+      "sort": [
+        {
+          "price": "asc"
+        }
+      ],
+      "_source": [
+        "name",
+        "price",
+        "_id"
+      ],
+      "from": 0,
+      "size": 10
+    },
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:10:06Z
+  -> POST http://localhost:9200/product/_doc/_search
+  {
+    "query": {
+      "wildcard": {
+        "name": "*Lind*"
+      }
+    },
+    "sort": [
+      {
+        "price": "asc"
+      }
+    ],
+    "_source": [
+      "name",
+      "price",
+      "_id"
+    ],
+    "from": 0,
+    "size": 10
+  }
+  <- 200
+  {
+    "took": 7,
+    "timed_out": false,
+    "_shards": {
+      "total": 5,
+      "successful": 5,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": 0,
+      "max_score": null,
+      "hits": []
+    }
+  }
+
+DEBUG: 2018-05-31T13:10:06Z
+  Request complete
+
+INFO: 2018-05-31T13:10:17Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T13:10:17Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:10:17Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T13:10:17Z
+  Request complete
+
+DEBUG: 2018-05-31T13:10:17Z
+  starting request {
+    "method": "GET",
+    "path": "/product/_doc/5b0d4f3703437c01dc3b442f",
+    "query": {
+      "_source": "_id,_name"
+    }
+  }
+  
+
+TRACE: 2018-05-31T13:10:17Z
+  -> GET http://localhost:9200/product/_doc/5b0d4f3703437c01dc3b442f?_source=_id%2C_name
+  
+  <- 200
+  {
+    "_index": "product",
+    "_type": "_doc",
+    "_id": "5b0d4f3703437c01dc3b442f",
+    "_version": 1,
+    "found": true,
+    "_source": {}
+  }
+
+DEBUG: 2018-05-31T13:10:17Z
+  Request complete
+
+DEBUG: 2018-05-31T13:10:17Z
+  starting request {
+    "method": "POST",
+    "path": "/product/_doc/_search",
+    "body": {
+      "query": {
+        "wildcard": {
+          "name": "*lind*"
+        }
+      },
+      "sort": [
+        {
+          "price": "asc"
+        }
+      ],
+      "_source": [
+        "name",
+        "price",
+        "_id"
+      ],
+      "from": 0,
+      "size": 10
+    },
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:10:17Z
+  -> POST http://localhost:9200/product/_doc/_search
+  {
+    "query": {
+      "wildcard": {
+        "name": "*lind*"
+      }
+    },
+    "sort": [
+      {
+        "price": "asc"
+      }
+    ],
+    "_source": [
+      "name",
+      "price",
+      "_id"
+    ],
+    "from": 0,
+    "size": 10
+  }
+  <- 200
+  {
+    "took": 11,
+    "timed_out": false,
+    "_shards": {
+      "total": 5,
+      "successful": 5,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": 1,
+      "max_score": null,
+      "hits": [
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37265c822e73a42db3",
+          "_score": null,
+          "_source": {
+            "price": 954.19,
+            "name": "Mcgowan Lindsey"
+          },
+          "sort": [
+            954.19
+          ]
+        }
+      ]
+    }
+  }
+
+DEBUG: 2018-05-31T13:10:17Z
+  Request complete
+
+INFO: 2018-05-31T13:10:59Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T13:10:59Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:10:59Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T13:10:59Z
+  Request complete
+
+DEBUG: 2018-05-31T13:10:59Z
+  starting request {
+    "method": "GET",
+    "path": "/product/_doc/5b0d4f3703437c01dc3b442f",
+    "query": {
+      "_source": "_id,_name"
+    }
+  }
+  
+
+TRACE: 2018-05-31T13:10:59Z
+  -> GET http://localhost:9200/product/_doc/5b0d4f3703437c01dc3b442f?_source=_id%2C_name
+  
+  <- 200
+  {
+    "_index": "product",
+    "_type": "_doc",
+    "_id": "5b0d4f3703437c01dc3b442f",
+    "_version": 1,
+    "found": true,
+    "_source": {}
+  }
+
+DEBUG: 2018-05-31T13:10:59Z
+  Request complete
+
+DEBUG: 2018-05-31T13:10:59Z
+  starting request {
+    "method": "POST",
+    "path": "/product/_doc/_search",
+    "body": {
+      "query": {
+        "wildcard": {
+          "name": "*lind*"
+        }
+      },
+      "sort": [
+        {
+          "price": "asc"
+        }
+      ],
+      "_source": [
+        "name",
+        "price"
+      ],
+      "from": 0,
+      "size": 10
+    },
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:10:59Z
+  -> POST http://localhost:9200/product/_doc/_search
+  {
+    "query": {
+      "wildcard": {
+        "name": "*lind*"
+      }
+    },
+    "sort": [
+      {
+        "price": "asc"
+      }
+    ],
+    "_source": [
+      "name",
+      "price"
+    ],
+    "from": 0,
+    "size": 10
+  }
+  <- 200
+  {
+    "took": 8,
+    "timed_out": false,
+    "_shards": {
+      "total": 5,
+      "successful": 5,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": 1,
+      "max_score": null,
+      "hits": [
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37265c822e73a42db3",
+          "_score": null,
+          "_source": {
+            "price": 954.19,
+            "name": "Mcgowan Lindsey"
+          },
+          "sort": [
+            954.19
+          ]
+        }
+      ]
+    }
+  }
+
+DEBUG: 2018-05-31T13:10:59Z
+  Request complete
+
+INFO: 2018-05-31T13:11:06Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T13:11:06Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:11:06Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T13:11:06Z
+  Request complete
+
+DEBUG: 2018-05-31T13:11:06Z
+  starting request {
+    "method": "GET",
+    "path": "/product/_doc/5b0d4f3703437c01dc3b442f",
+    "query": {
+      "_source": "_id,_name"
+    }
+  }
+  
+
+TRACE: 2018-05-31T13:11:06Z
+  -> GET http://localhost:9200/product/_doc/5b0d4f3703437c01dc3b442f?_source=_id%2C_name
+  
+  <- 200
+  {
+    "_index": "product",
+    "_type": "_doc",
+    "_id": "5b0d4f3703437c01dc3b442f",
+    "_version": 1,
+    "found": true,
+    "_source": {}
+  }
+
+DEBUG: 2018-05-31T13:11:06Z
+  Request complete
+
+DEBUG: 2018-05-31T13:11:06Z
+  starting request {
+    "method": "POST",
+    "path": "/product/_doc/_search",
+    "body": {
+      "query": {
+        "wildcard": {
+          "name": "*lind*"
+        }
+      },
+      "sort": [
+        {
+          "price": "asc"
+        }
+      ],
+      "_source": [
+        "name",
+        "price"
+      ],
+      "from": 0,
+      "size": 10
+    },
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:11:06Z
+  -> POST http://localhost:9200/product/_doc/_search
+  {
+    "query": {
+      "wildcard": {
+        "name": "*lind*"
+      }
+    },
+    "sort": [
+      {
+        "price": "asc"
+      }
+    ],
+    "_source": [
+      "name",
+      "price"
+    ],
+    "from": 0,
+    "size": 10
+  }
+  <- 200
+  {
+    "took": 6,
+    "timed_out": false,
+    "_shards": {
+      "total": 5,
+      "successful": 5,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": 1,
+      "max_score": null,
+      "hits": [
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37265c822e73a42db3",
+          "_score": null,
+          "_source": {
+            "price": 954.19,
+            "name": "Mcgowan Lindsey"
+          },
+          "sort": [
+            954.19
+          ]
+        }
+      ]
+    }
+  }
+
+DEBUG: 2018-05-31T13:11:06Z
+  Request complete
+
+INFO: 2018-05-31T13:11:38Z
+  Adding connection to http://localhost:9200/
+
+DEBUG: 2018-05-31T13:11:38Z
+  starting request {
+    "method": "HEAD",
+    "requestTimeout": 30000,
+    "castExists": true,
+    "path": "/",
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:11:38Z
+  -> HEAD http://localhost:9200/
+  
+  <- 200
+  
+
+DEBUG: 2018-05-31T13:11:38Z
+  Request complete
+
+DEBUG: 2018-05-31T13:11:38Z
+  starting request {
+    "method": "GET",
+    "path": "/product/_doc/5b0d4f3703437c01dc3b442f",
+    "query": {
+      "_source": "_id,_name"
+    }
+  }
+  
+
+TRACE: 2018-05-31T13:11:38Z
+  -> GET http://localhost:9200/product/_doc/5b0d4f3703437c01dc3b442f?_source=_id%2C_name
+  
+  <- 200
+  {
+    "_index": "product",
+    "_type": "_doc",
+    "_id": "5b0d4f3703437c01dc3b442f",
+    "_version": 1,
+    "found": true,
+    "_source": {}
+  }
+
+DEBUG: 2018-05-31T13:11:38Z
+  Request complete
+
+DEBUG: 2018-05-31T13:11:38Z
+  starting request {
+    "method": "POST",
+    "path": "/product/_doc/_search",
+    "body": {
+      "query": {
+        "wildcard": {
+          "name": "**"
+        }
+      },
+      "sort": [
+        {
+          "price": "asc"
+        }
+      ],
+      "_source": [
+        "name",
+        "price"
+      ],
+      "from": 0,
+      "size": 10
+    },
+    "query": {}
+  }
+  
+
+TRACE: 2018-05-31T13:11:38Z
+  -> POST http://localhost:9200/product/_doc/_search
+  {
+    "query": {
+      "wildcard": {
+        "name": "**"
+      }
+    },
+    "sort": [
+      {
+        "price": "asc"
+      }
+    ],
+    "_source": [
+      "name",
+      "price"
+    ],
+    "from": 0,
+    "size": 10
+  }
+  <- 200
+  {
+    "took": 7,
+    "timed_out": false,
+    "_shards": {
+      "total": 5,
+      "successful": 5,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": 10,
+      "max_score": null,
+      "hits": [
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f370499713c9cd007c0",
+          "_score": null,
+          "_source": {
+            "price": 15.79,
+            "name": "Sherman Meyer"
+          },
+          "sort": [
+            15.790000000000001
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37f6fda33f2efa6e53",
+          "_score": null,
+          "_source": {
+            "price": 92.85,
+            "name": "Acosta Higgins"
+          },
+          "sort": [
+            92.85000000000001
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37793be2f152da625e",
+          "_score": null,
+          "_source": {
+            "price": 98.94,
+            "name": "Camille Obrien"
+          },
+          "sort": [
+            98.94
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f3703437c01dc3b442f",
+          "_score": null,
+          "_source": {
+            "price": 403.79,
+            "name": "Alisha Hicks"
+          },
+          "sort": [
+            403.79
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f3784383b8ebd7e4b92",
+          "_score": null,
+          "_source": {
+            "price": 432.68,
+            "name": "Henson Mitchell"
+          },
+          "sort": [
+            432.68
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37b218f7a9d283c38d",
+          "_score": null,
+          "_source": {
+            "price": 554.05,
+            "name": "Bender Chapman"
+          },
+          "sort": [
+            554.0500000000001
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37baffc30ee690af99",
+          "_score": null,
+          "_source": {
+            "price": 576.58,
+            "name": "Blanca Cohen"
+          },
+          "sort": [
+            576.58
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37a13c9981d92cb381",
+          "_score": null,
+          "_source": {
+            "price": 667.9,
+            "name": "Waller Peterson"
+          },
+          "sort": [
+            667.9
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f372b16ffd48a53e50b",
+          "_score": null,
+          "_source": {
+            "price": 875.79,
+            "name": "Brandy Bradshaw"
+          },
+          "sort": [
+            875.79
+          ]
+        },
+        {
+          "_index": "product",
+          "_type": "_doc",
+          "_id": "5b0d4f37265c822e73a42db3",
+          "_score": null,
+          "_source": {
+            "price": 954.19,
+            "name": "Mcgowan Lindsey"
+          },
+          "sort": [
+            954.19
+          ]
+        }
+      ]
+    }
+  }
+
+DEBUG: 2018-05-31T13:11:38Z
+  Request complete
+

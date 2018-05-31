@@ -8,3 +8,87 @@ DEBUG: 2018-05-29T10:51:35Z
   }
   
 
+ERROR: 2018-05-31T11:00:55Z
+  Error: Request error, retrying
+  HEAD http://localhost:9200/ => connect ECONNREFUSED 127.0.0.1:9200
+      at Log.error (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/log.js:226:56)
+      at checkRespForFailure (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/transport.js:259:18)
+      at HttpConnector.<anonymous> (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/connectors/http.js:163:7)
+      at ClientRequest.wrapper (/home/daffolap-157/personal/learning/elasticsearch/node_modules/lodash/lodash.js:4949:19)
+      at emitOne (events.js:116:13)
+      at ClientRequest.emit (events.js:211:7)
+      at Socket.socketErrorListener (_http_client.js:387:9)
+      at emitOne (events.js:116:13)
+      at Socket.emit (events.js:211:7)
+      at emitErrorNT (internal/streams/destroy.js:64:8)
+
+ERROR: 2018-05-31T11:04:28Z
+  Error: Request error, retrying
+  HEAD http://localhost:9200/ => connect ECONNREFUSED 127.0.0.1:9200
+      at Log.error (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/log.js:226:56)
+      at checkRespForFailure (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/transport.js:259:18)
+      at HttpConnector.<anonymous> (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/connectors/http.js:163:7)
+      at ClientRequest.wrapper (/home/daffolap-157/personal/learning/elasticsearch/node_modules/lodash/lodash.js:4949:19)
+      at emitOne (events.js:116:13)
+      at ClientRequest.emit (events.js:211:7)
+      at Socket.socketErrorListener (_http_client.js:387:9)
+      at emitOne (events.js:116:13)
+      at Socket.emit (events.js:211:7)
+      at emitErrorNT (internal/streams/destroy.js:64:8)
+
+ERROR: 2018-05-31T11:04:28Z
+  Error: Request error, retrying
+  HEAD http://localhost:9200/product => connect ECONNREFUSED 127.0.0.1:9200
+      at Log.error (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/log.js:226:56)
+      at checkRespForFailure (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/transport.js:259:18)
+      at HttpConnector.<anonymous> (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/connectors/http.js:163:7)
+      at ClientRequest.wrapper (/home/daffolap-157/personal/learning/elasticsearch/node_modules/lodash/lodash.js:4949:19)
+      at emitOne (events.js:116:13)
+      at ClientRequest.emit (events.js:211:7)
+      at Socket.socketErrorListener (_http_client.js:387:9)
+      at emitOne (events.js:116:13)
+      at Socket.emit (events.js:211:7)
+      at emitErrorNT (internal/streams/destroy.js:64:8)
+
+ERROR: 2018-05-31T12:31:21Z
+  Error: Request error, retrying
+  HEAD http://localhost:9200/ => connect ECONNREFUSED 127.0.0.1:9200
+      at Log.error (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/log.js:226:56)
+      at checkRespForFailure (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/transport.js:259:18)
+      at HttpConnector.<anonymous> (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/connectors/http.js:163:7)
+      at ClientRequest.wrapper (/home/daffolap-157/personal/learning/elasticsearch/node_modules/lodash/lodash.js:4949:19)
+      at emitOne (events.js:116:13)
+      at ClientRequest.emit (events.js:211:7)
+      at Socket.socketErrorListener (_http_client.js:387:9)
+      at emitOne (events.js:116:13)
+      at Socket.emit (events.js:211:7)
+      at emitErrorNT (internal/streams/destroy.js:64:8)
+
+ERROR: 2018-05-31T12:33:05Z
+  Error: Request error, retrying
+  HEAD http://localhost:9200/ => connect ECONNREFUSED 127.0.0.1:9200
+      at Log.error (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/log.js:226:56)
+      at checkRespForFailure (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/transport.js:259:18)
+      at HttpConnector.<anonymous> (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/connectors/http.js:163:7)
+      at ClientRequest.wrapper (/home/daffolap-157/personal/learning/elasticsearch/node_modules/lodash/lodash.js:4949:19)
+      at emitOne (events.js:116:13)
+      at ClientRequest.emit (events.js:211:7)
+      at Socket.socketErrorListener (_http_client.js:387:9)
+      at emitOne (events.js:116:13)
+      at Socket.emit (events.js:211:7)
+      at emitErrorNT (internal/streams/destroy.js:64:8)
+
+ERROR: 2018-05-31T12:33:16Z
+  Error: Request error, retrying
+  HEAD http://localhost:9200/ => connect ECONNREFUSED 127.0.0.1:9200
+      at Log.error (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/log.js:226:56)
+      at checkRespForFailure (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/transport.js:259:18)
+      at HttpConnector.<anonymous> (/home/daffolap-157/personal/learning/elasticsearch/node_modules/elasticsearch/src/lib/connectors/http.js:163:7)
+      at ClientRequest.wrapper (/home/daffolap-157/personal/learning/elasticsearch/node_modules/lodash/lodash.js:4949:19)
+      at emitOne (events.js:116:13)
+      at ClientRequest.emit (events.js:211:7)
+      at Socket.socketErrorListener (_http_client.js:387:9)
+      at emitOne (events.js:116:13)
+      at Socket.emit (events.js:211:7)
+      at emitErrorNT (internal/streams/destroy.js:64:8)
+
