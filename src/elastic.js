@@ -38,7 +38,7 @@ class ElasticSearch {
     };
 
     // Bulk index
-    bulkIndex(indexName, document, type = '_doc') {
+    createBulkIndex(indexName, document, type = '_doc') {
         return this.client.bulk({
             index: indexName,
             type: type,
@@ -55,13 +55,14 @@ class ElasticSearch {
     }
 
     // Search by keyword
-    search(indexName, keyword) {
+    searchByName(indexName, keyword) {
         const body = {
             "query": { "wildcard": { "name": `*${keyword}*` } },
             "sort": [
-                { "price": "asc" }
+                { "offerPrice": "asc" },
+                { "normalPrice": "asc" }
             ],
-            "_source": ["name", "price"],
+            "_source": ["name", "offerPrice", "normalPrice"],
             "from": 0,
             "size": 10
         };
@@ -69,6 +70,39 @@ class ElasticSearch {
             index: indexName,
             type: '_doc',
             body: body
+        });
+    }
+
+    // create index
+    createIndex(indexName, type = '_doc', document) {
+        const id = document.id;
+        delete document.id;
+        return this.client.create({
+            index: indexName,
+            type: type,
+            id: id,
+            body: document
+        })
+    }
+
+    // Partial doc update
+    partialDocumentUpdate(id, indexName, partialDocument, type = '_doc') {
+        return this.client.update({
+            index: indexName,
+            type: type,
+            id: id,
+            body: {
+                doc: partialDocument
+            }
+        });
+    }
+
+    // delete document by id
+    deleteDocumentById(id, indexName = 'product', type = '_doc') {
+        return this.client.delete({
+            index: indexName,
+            type: type,
+            id: id
         });
     }
 }

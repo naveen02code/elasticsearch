@@ -92,56 +92,84 @@ const ElasticSearch = require('./elastic');
 
 async function test(options) {
     const esClient = new ElasticSearch(options);
-
-    console.info('Pinging...');
-    await esClient.ping();
-    console.info('Pinging Done');
+    let result;
+    // console.info('Pinging...');
+    // result = await esClient.ping();
+    // console.info('Pinging Done: ', result);
 
     // console.info('Deleting Index...');
-    // await esClient.deleteIndex('product');
-    // console.info('Deleting Index Done');
+    // result = await esClient.deleteIndex('product');
+    // console.info('Deleting Index Done: ', result);
 
-    const mapping = {
-        "mappings": {
-            "_doc": {
-                "properties": {
-                    "name": {
-                        "type": "text",
-                        "fields": {
-                            "keyword": {
-                                "type": "keyword"
-                            }
-                        }
-                    },
-                    "price": {
-                        "type": "scaled_float",
-                        "scaling_factor": 100,
-                        "doc_values": true
-                    }
-                }
-            }
-        }
-    };
+    // const mapping = {
+    //     "mappings": {
+    //         "_doc": {
+    //             "properties": {
+    //                 "name": {
+    //                     "type": "text",
+    //                     "fields": {
+    //                         "keyword": {
+    //                             "type": "keyword"
+    //                         }
+    //                     }
+    //                 },
+    //                 "normalPrice": {
+    //                     "type": "scaled_float",
+    //                     "scaling_factor": 100,
+    //                     "doc_values": true
+    //                 },
+    //                 "offerPrice": {
+    //                     "type": "scaled_float",
+    //                     "scaling_factor": 100,
+    //                     "doc_values": true
+    //                 }
+    //             }
+    //         }
+    //     }
+    // };
     // console.info('Creating Index...');
-    // await esClient.createIndex('product', mapping);
-    // console.info('Creating Index Done');
+    // result = await esClient.createIndex('product', mapping);
+    // console.info('Creating Index Done: ', result);
 
     // console.info('Checking Index...');
-    // await esClient.checkIndex('product');
-    // console.info('Checking Index Done');
+    // result = await esClient.checkIndex('product');
+    // console.info('Checking Index Done: ', result);
 
-    // const productJson = require('./../data/product.json');
+    // const productJson = require('./../data/product-new.json');
     // console.info('Bulk Indexing...');
-    // await esClient.bulkIndex('product', productJson);
-    // console.info('Bulk Indexing Done');
+    // result = await esClient.createBulkIndex('product', productJson);
+    // console.info('Bulk Indexing Done: ', result);
 
-    console.info('Get Doc By Id...');
-    const doc = await esClient.getDocumentById('5b0d4f3703437c01dc3b442f', 'product', { type: '_doc', _source: ['_id', '_name'] });
-    console.info('Doc: ', doc);
+    // console.info('Get Doc By Id...');
+    // result = await esClient.getDocumentById('5b0d4f3703437c01dc3b442f', 'product', { type: '_doc', _source: ['_id', '_name'] });
+    // console.info('Doc: ', result);
 
     console.info('Search by name...');
-    const result = await esClient.search('product', '');
+    result = await esClient.searchByName('product', 'eni');
     console.info('Doc: ', result);
+
+    // console.log('Partial Doc Update...');
+    // result = await esClient.partialDocumentUpdate('5b1108df0d34771c6b7317fc', 'product', {
+    //     "offerPrice": 5.37,
+    //     "normalPrice": 935.25
+    // })
+    // console.log('Updation done.');
+
+    // console.log('Deleting doc...');
+    // result = await esClient.deleteDocumentById('5b1108dfe24878c1c4e5401e', 'product');
+    // console.log('Deletion done: ', result);
+
+    console.log('Creating index...');
+    const newDoc = {
+        "id": "5b1108dfe24878c1c4e5401e",
+        "offerPrice": 435.62,
+        "normalPrice": 696.4,
+        "name": "quis tempor Lorem nulla ex amet tempor mollit qui cillum"
+    };
+    result = await esClient.createIndex('product', '_doc', newDoc);
+    console.log('Creation done: ', result);
+
+    return result;
 
 }
 
